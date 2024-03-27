@@ -1,0 +1,207 @@
+/* ========================= ANIMATION DIMENSIONS START========================= */
+/* ======================================= INDEX SECTION animation START ======================================= */
+@import url(./about.css);
+/* for banner section animation start */
+
+@keyframes move {
+    0% {}
+
+    100% {
+        left: 4%;
+    }
+}
+
+@keyframes move2 {
+    0% {}
+
+    100% {
+        right: 54%;
+    }
+}
+
+@keyframes move3 {
+    0% {}
+
+    100% {
+        bottom: 4%;
+    }
+}
+
+/* /for banner section animation end */
+
+
+
+/* for who animation section start */
+
+@keyframes move5 {
+    0% {}
+
+    100% {
+        right: 4%;
+    }
+}
+
+@keyframes border-transform-boy-image {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+
+    }
+}
+
+/* /for who animation section end */
+
+/* for teacher image animation section start */
+
+@keyframes border-transform-teacher-image {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+/* /for teacher image animation section end */
+
+
+/* for fix buynow animation section start */
+
+@keyframes buynowa {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* /for fix buynow animation section end */
+/* ======================================= /INDEX SECTION animation END ======================================= */
+
+/* ======================================= ABOUT SECTION animation START ======================================= */
+
+/* ========================= Courses section start ========================= */
+
+@keyframes moveLeftBounce {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+/* ========================= /Courses section end ========================= */
+
+/* ========================= testimonial section start ========================= */
+@keyframes border-transform-feedback-image {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+
+}
+
+/* ========================= /testimonial section end ========================= */
+
+/* ======================================= /ABOUT SECTION animation END ======================================= */
+
+/* ========================= /ANIMATION DIMENSIONS END ========================= */

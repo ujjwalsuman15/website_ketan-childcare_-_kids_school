@@ -1,0 +1,298 @@
+
+
+/* ================================================== Foot Section Start ================================================== */
+/* ========================= Footer Section Start ========================= */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer .footer-content {
+    margin-bottom: 30px;
+}
+
+footer .footer-content .logo-name {
+    margin-bottom: 25px;
+}
+
+footer .footer-content h1 a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content p {
+    color: #fff;
+}
+
+footer .footer-content p+ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+footer .footer-content p+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .footer-content p+ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ea512e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease-in;
+}
+
+footer .footer-content p+ul li a:hover {
+    background: #f5890d;
+    border-radius: 20%;
+    transform: translateY(-5px) translateX(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-content h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content h3::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50px;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-contact-info,
+footer .footer-content .footer-activities-info {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+footer .footer-content .footer-contact-info li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 35px;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-contact-info li .contact-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 25px;
+    color: #ea512e;
+}
+
+footer .footer-content .footer-contact-info li span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .footer-content .footer-contact-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-contact-info li a:hover,
+footer .footer-content .footer-activities-info li a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-contact-info li a::before,
+footer .footer-content .footer-activities-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-contact-info li a:hover::before,
+footer .footer-content .footer-activities-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-contact-info li:last-child,
+footer .footer-content .footer-activities-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-contact-info li span:last-child {
+    font-size: 14px;
+}
+
+footer .footer-content .footer-activities-info li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 18px;
+    position: relative;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-activities-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-activities-info li a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-activities-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-activities-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-activities-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-photo-gallery {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -5px;
+}
+
+footer .footer-content .footer-photo-gallery li {
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
+footer .footer-content .footer-photo-gallery li .box {
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover::before {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+footer .footer-content .footer-photo-gallery li .box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #ea512e;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box img {
+    height: auto;
+    transition: 0.5s;
+    max-width: 100%;
+    display: inline-block;
+    width: 79px;
+    vertical-align: middle;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover img {
+    transform: scale(1.1);
+}
+
+footer .footer-content .footer-photo-gallery li .box .link-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer .footer-content .footer-photo-gallery li .box a:hover {
+    color: #ea512e;
+    text-decoration: none;
+}
+
+/* ========================= /Footer Section End ========================= */
+
+/* ========================= copyright Section start ========================= */
+div.copyright {
+    background: #091629;
+}
+
+div.copyright .copyright-content {
+    text-align: center;
+}
+
+div.copyright .copyright-content p {
+    color: #fff;
+    margin: 0px;
+}
+
+div.copyright .copyright-content p a {
+    font-weight: 600;
+    color: #ea512e;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ========================= /copyright Section End ========================= */
+
+
+/* ================================================== /Foot Section End ================================================== */

@@ -1,0 +1,718 @@
+/* ========================= universal selector start =========================*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* ========================= ABOUT SECTION CSS START ========================= */
+@import url(./about.css);
+/* ========================= /ABOUT SECTION CSS END ========================= */
+
+/* ========================= UNIVERSAL CSS START ========================= */
+@import url(./universal.css);
+/* ========================= /UNIVERSAL CSS END ========================= */
+
+/* ========================= HEADER SECTION START ========================= */
+@import url(./header.css);
+/* ========================= /HEADER SECTION END ========================= */
+
+/* ========================= FOOTER SECTION START ========================= */
+@import url(./footer.css);
+/* ========================= /FOOTER SECTION END ========================= */
+
+/* ========================= FIXED SECTION START ========================= */
+@import url(./fix.css);
+/* ========================= /FIXED SECTION END ========================= */
+
+/* ========================= ANIMATION DIMENSIONS START========================= */
+@import url(./animation.css);
+/* ========================= /ANIMATION DIMENSIONS END========================= */
+
+/* ======================== RESPONSIVE DIMENSIONS START ========================= */
+@import url(./responsive.css);
+/* ======================== /RESPONSIVE DIMENSIONS END ========================= */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+/* ========================= /universal selector end =========================*/
+
+/* ======================================= INDEX SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+.banner {
+    width: 100%;
+    height: 750px;
+    background: url(../img/main-banner-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.shape-1 {
+    top: 3.5%;
+    left: .7%;
+    animation: move 2s linear infinite alternate;
+}
+
+.shape-2 {
+    top: 3.5%;
+    right: 50%;
+    animation: move2 2s linear infinite alternate;
+}
+
+.shape-3 {
+    bottom: 12%;
+    left: .7%;
+    z-index: 9;
+    animation: move 2s linear infinite alternate;
+}
+
+.shape-4 {
+    bottom: 0%;
+    z-index: 9;
+    right: 50%;
+    animation: move3 2s linear infinite alternate;
+}
+
+/* ========================= /Banner section end ========================= */
+
+
+/* ========================= Who We Are section Start ========================= */
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.shape-5 {
+    top: 12%;
+    right: 7%;
+    animation: move5 2s linear infinite alternate;
+}
+
+.whoweare .container .boy-image {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.whoweare .container .col-md-6.boy-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EA512E;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-boy-image 10s linear infinite alternate forwards;
+}
+
+.whoweare .container .boy-image img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.whoweare .container .col-md-6.boy-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f5890d;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-boy-image 50s linear infinite alternate forwards;
+}
+
+.whoweare .col-md-6 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.whoweare .col-md-6 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.whoweare .col-md-6 ul li {
+    line-height: 45px;
+}
+
+.whoweare .col-md-6 ul li span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #ea512e;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+.whoweare .col-md-6 ul li:hover span {
+    background: #F5890D;
+    transition: all 1s linear;
+}
+
+/* ========================= /Who We Are section end ========================= */
+
+/* ========================= popular section start ========================= */
+.popular {
+    z-index: 1;
+}
+
+.popular .col-12 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.popular .col-12 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.popular .card img {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
+}
+
+.popular .card:hover img {
+    transform: rotate(4deg) scale(1.09);
+    transition: all 0.3s linear;
+}
+
+.popular .card-body .popular-content .anchor a {
+    color: #1b0238;
+    transition: all 0.7s ease-in-out;
+}
+
+.popular .colorimage:hover .anchor a {
+    color: #EA512E;
+    transition: all 0.7s ease-in;
+}
+
+.popular .popular-content .price {
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    font-weight: bold;
+    background: #ea512e;
+    border-radius: 0px 0px 0px 15px;
+}
+
+.popular .colorimage:hover .price {
+    color: #fff;
+    background: #f5890d;
+    transition: all 0.7s ease-in;
+}
+
+.card-body .popular-content {
+    padding: 25px 10px 0px 8px;
+}
+
+.card-body .popular-content .class-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #EA512E;
+}
+
+.card-body .popular-content .class-list li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-body .popular-content .class-list li span {
+    color: #EA512E;
+    font-weight: 600;
+}
+
+.card-body .popular-content .popular-button {
+    margin-top: 25px;
+}
+
+
+
+.popular .class-shape .class-shape-1 {
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.popular .class-shape .class-shape-2 {
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+/* ========================= /popular section end ========================= */
+
+/* ========================= core value section start ========================= */
+.core-value {
+    z-index: 1;
+}
+
+.core-value .col-lg-6 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.core-value .col-lg-6 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.core-value .col-lg-6 .number {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    transition: 1.5s;
+    color: #1b0238;
+    margin-top: 1.5%;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: default;
+    outline-offset: 2px;
+    display: inline-block;
+    border: 3px solid #fff;
+    outline: 2px solid #e5e4e4;
+    font-family: "Catamaran", sans-serif;
+}
+
+.core-value .col-lg-6 .ourcore:hover .number {
+    color: #fff;
+    transition: 1.5s;
+    background: #ea512e;
+    outline-color: #ea512e;
+}
+
+.core-value .value-shape .value-shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.core-value .value-shape .value-shape-2 {
+    position: absolute;
+    top: 530px;
+    left: 25px;
+}
+
+.core-value .value-shape .value-shape-3 {
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    right: 0;
+    z-index: -1;
+}
+
+/* ========================= /core value section end ========================= */
+
+/* ========================= Our Teacher section start ========================= */
+
+.ourteacher {
+    background: url(../img/teacher-bg.png);
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.ourteacher span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.ourteacher h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ourteacher .teacher-image {
+    z-index: 9;
+}
+
+.ourteacher .teacher-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EA512E;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-teacher-image 30s linear infinite alternate forwards;
+}
+
+.ourteacher .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -70px;
+    transition: all 0.4s ease-in;
+}
+
+.ourteacher .teacher-image:hover .social-media {
+    margin-bottom: 0px;
+    transition: all 0.4s ease-out;
+}
+
+.ourteacher .social-media ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: #ea512e;
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+}
+
+.ourteacher .social-media ul li a {
+    color: #fff;
+}
+
+.ourteacher .social-media ul li:hover {
+    background: #f5890d;
+    transition: 0.3s ease-in;
+}
+
+.ourteacher .about-teacher {
+    margin-top: 25px;
+}
+
+.ourteacher .about-teacher h3 {
+    color: #1b0238;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.ourteacher .about-teacher h3+span {
+    color: #ea512e;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Catamaran", sans-serif;
+}
+
+/* ========================= /Our Teacher section end ========================= */
+
+/* ========================= Testimonials section start ========================= */
+.testimonial span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.testimonial h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.testimonial .card-teacher {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #fee9ca;
+    cursor: default;
+}
+
+.testimonial .card-teacher div.icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    line-height: 77px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #fff;
+    transition: all 0.5s linear;
+
+}
+
+.testimonial .card-teacher:hover div.icon {
+    background: #ea512e;
+    transition: all 0.5s linear;
+
+}
+
+.testimonial .card-teacher:hover div.icon .fa-quote-left {
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+.testimonial .card-teacher p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #6b6b84;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.testimonial .card-teacher .info-box h3 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.testimonial .card-teacher .info-box span {
+    display: block;
+    color: #ea512e;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+}
+
+.testimonial button {
+    color: #fff;
+    transition: 0.6s;
+    border-radius: 50%;
+    background: #ea512e;
+}
+
+.testimonial button:hover {
+    transition: 0.6s;
+    background: #f5890d;
+}
+
+.text-fa {
+    font-family: 'Roboto', sans-serif, FontAwesome;
+}
+
+.testimonial .row>* {
+    padding-left: 0px;
+}
+
+.prev,
+.next {
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+.slides:hover .prev {
+    visibility: visible;
+}
+
+.slides:hover .next {
+    visibility: visible;
+}
+
+.slider-main {
+    transition: 0.6s;
+}
+
+.testimonial:hover .prev {
+    visibility: visible;
+}
+
+.testimonial:hover .next {
+    visibility: visible;
+}
+
+/* ========================= /Testimonials section end ========================= */
+
+/* ========================= Upcoming Events Section Start ========================= */
+.upcoming-event {
+    background: url(../img/event-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.upcoming-event span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.upcoming-event h3 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.upcoming-event .event-background {
+    box-shadow: 0px 0px 15px 0px #444343;
+}
+
+.upcoming-event .event-content h3 {
+    margin: 0px;
+}
+
+.upcoming-event .event-content h3 a {
+    font-size: 25px;
+    color: #1b0238;
+}
+
+.upcoming-event .event-content .event-list {
+    margin-top: 20px;
+}
+
+.upcoming-event .event-content .event-list time {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.upcoming-event .event-content .event-list address {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.upcoming-event .event-date h1 {
+    font-size: 80px;
+    color: #ea512e;
+    margin-bottom: 0;
+}
+
+.upcoming-event .event-date span {
+    font-size: 20px;
+    color: #ea512e;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: "Catamaran", sans-serif;
+}
+
+
+/* ========================= /Upcoming Events Section End ========================= */
+
+/* ========================= latest-news Section Start ========================= */
+.latest-news span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.latest-news h3 {
+    color: #000;
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.latest-news .card img {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
+}
+
+.latest-news .card:hover img {
+    transform: rotate(4deg) scale(1.2);
+    transition: all 0.3s linear;
+}
+
+.latest-news .card-body {
+    background-color: #fdeee9;
+    padding: 30px;
+}
+
+.latest-news .card ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.latest-news .card ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #283d5e;
+    margin-right: 7.6px;
+}
+
+.latest-news .card ul li span {
+    color: #ea512e;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+.latest-news .card ul li a {
+    font-size: 16px;
+}
+
+.latest-news .card-body h3 {
+    margin: 0px;
+}
+
+.latest-news .card-body h3 a {
+    color: #1b0238;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.9s ease-in;
+}
+
+.latest-news .colorimage:hover h3 a {
+    color: #EA512E;
+    transition: all 0.7s ease-in;
+}
+
+/* ========================= /latest-news Section End ========================= */
+
+/* ======================================= /INDEX SECTION CSS END ======================================= */

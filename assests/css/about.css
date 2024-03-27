@@ -1,0 +1,451 @@
+/* ======================================= ABOUT SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.about-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.about-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.about-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.about-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.about-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.about-banner .about::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Who-We-Are section start ========================= */
+.who-we-are {
+    z-index: 9;
+}
+
+.who-we-are .who-we-are-content span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.who-we-are .who-we-are-content h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.who-we-are .who-we-are-content p {
+    margin-bottom: 0px;
+}
+
+.who-we-are .who-we-are-content ul li {
+    line-height: 45px;
+}
+
+.who-we-are .who-we-are-content ul li span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #ea512e;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+.who-we-are .who-we-are-content ul li:hover span {
+    background: #F5890D;
+    transition: all 1s linear;
+}
+
+/* ========================= /Who-We-Are section end ========================= */
+
+/* ========================= Fun-Fact-Area section start ========================= */
+.fun-fact-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/fun-facts-bg.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.fun-fact-area .first-fun-fact {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #5da7bd;
+    padding: 75px 45px;
+    opacity: .90;
+    border-radius: 15px;
+}
+
+.fun-fact-area .first-fun-fact.second {
+    background: #DCA04F;
+}
+
+.fun-fact-area .first-fun-fact.third {
+    background: #674E88;
+}
+
+.fun-fact-area .first-fun-fact.fourth {
+    background: #D45E34;
+}
+
+.fun-fact-area .first-fun-fact h3 {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fun-fact-area .first-fun-fact p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* ========================= /Fun-Fact-Area section end ========================= */
+
+/* ========================= Expert-Teacher section start ========================= */
+.expert-teacher .teacher-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -150px;
+    transition: all 0.4s ease-in;
+}
+
+.expert-teacher .expert-teacher-image:hover .teacher-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    margin-bottom: 0px;
+    padding-top: 120px;
+    transition: all 0.4s ease-out;
+    border-radius: 5%;
+}
+
+.expert-teacher .teacher-content ul li {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+
+.expert-teacher .teacher-content ul li a {
+    transition: 0.4s ease-in;
+    color: #ea512e;
+}
+
+.expert-teacher .teacher-content ul li:hover {
+    background: #f5890d;
+    transition: 0.4s ease-in;
+}
+
+.expert-teacher .teacher-content ul li:hover a {
+    transition: 0.4s ease-in;
+    color: #fff;
+}
+
+/* ========================= /Expert-Teacher section end ========================= */
+
+/* ========================= Quote-area section start ========================= */
+.quote-area {
+    background: url(../img/aboutimg/quote-bg.png) no-repeat fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote-area .quote-item.item-two {
+    max-width: 750px;
+    margin-left: auto;
+}
+
+.quote-area .quote-item {
+    background-color: #fff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px;
+}
+
+.quote-area .quote-item .content {
+    margin-bottom: 30px;
+}
+
+.quote-area .quote-item .content span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.quote-area .quote-item .content h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.quote-item form .form-group .form-control {
+    height: 70px;
+    color: #1b0238;
+    box-shadow: unset !important;
+    border: 1px solid #eee;
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    appearance: none;
+}
+
+/* ========================= /Quote-area section end ========================= */
+
+/* ========================= Courses section start ========================= */
+.courses span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.courses h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.courses .courses-image .courses-image-shape .shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+.courses .courses-image .courses-image-shape .shape-2 {
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    animation: moveLeftBounce 3s linear infinite;
+    z-index: -1;
+}
+
+.courses .courses-image .courses-image-shape .shape-3 {
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+    z-index: -1;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+/* ========================= /Courses section end ========================= */
+
+/* ========================= Testimonials section start ========================= */
+
+.testimonial .feedback-item .feedback-image {
+    z-index: 9;
+}
+
+.testimonial .feedback-item .feedback-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EA512E;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-feedback-image 30s linear infinite alternate forwards;
+}
+
+.testimonial .feedback-item .feedback-info span {
+    font-family: "Catamaran", sans-serif;
+}
+
+/* ========================= /Testimonials section end ========================= */
+
+/* ========================= Pricing section start ========================= */
+.pricing span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.pricing h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pricing .pricing-table .table thead th {
+    border: 1px solid #f0f0f0;
+    color: #1b0238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 25px;
+    border-bottom: none;
+}
+
+.pricing .pricing-table .table tbody tr th {
+    border: 1px solid #f0f0f0;
+    font-weight: 400;
+    color: #6b6b84;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 16px;
+}
+
+.pricing .pricing-table .table tbody tr td {
+    border: 1px solid #f0f0f0;
+    font-weight: 400;
+    color: #6b6b84;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 16px;
+}
+
+/* ========================= /Pricing section end ========================= */
+
+/* ========================= Newsletter section end ========================= */
+.newsletter {
+    background-color: #fdeee9;
+    position: relative;
+    z-index: 1;
+}
+
+.newsletter .newsletter-form .input-newsletter {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #fff;
+    height: 60px;
+    padding-left: 25px;
+    border-radius: 5px;
+    outline: 0;
+    color: #1b0238;
+}
+
+.newsletter .newsletter-form button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #ea512e;
+    color: #fff;
+    border: none;
+    height: 52px;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    line-height: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.newsletter .newsletter-form button:hover {
+    background-color: #1b0238;
+    color: #fff;
+}
+
+.newsletter .newsletter-shape .newsletter-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-60%);
+    max-width: 250px;
+    z-index: -1;
+}
+
+.newsletter .newsletter-shape .newsletter-shape-2 {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    transform: translateY(-60%);
+    max-width: 250px;
+    z-index: -1;
+}
+
+/* ========================= /Newsletter section end ========================= */
+
+/* ========================= Partner section start ========================= */
+
+/* ========================= /Partner section end ========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================= /ABOUT SECTION CSS END ======================================= */

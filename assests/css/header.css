@@ -1,0 +1,40 @@
+
+/* ========================= Nav section start ========================= */
+a.active {
+    color: #EA512E !important;
+
+}
+
+a.nav-link:hover,
+a.dropdown-item:hover {
+    color: #EA512E !important;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+
+.dropdown-menu {
+    width: 280px;
+    border: none;
+    position: absolute;
+    border-radius: 0px;
+    transition: all 4s ease-in-out;
+    box-shadow: 0px 0px 15px 0px #ccc;
+    --bs-dropdown-link-active-bg: #0dfd99;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.d-flex .dropdown-menu .dropdown-item {
+    font-weight: 500;
+}
+
+
+
+
+/* ========================= /Nav section end ========================= */

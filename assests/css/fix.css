@@ -1,0 +1,64 @@
+
+/* ========================= FIXED SECTION START ========================= */
+
+/* ========================= Fixed buynow section start ========================= */
+.right-buynow a.buy-now {
+    top: 50%;
+    z-index: 9;
+    right: 30px;
+    font-size: 15px;
+    position: fixed;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block;
+    animation-duration: 5s;
+    animation-name: buynowa;
+    animation-fill-mode: both;
+    transform: translateY(-50%);
+    color: #ffffff !important;
+    background-color: #82b440;
+    padding: 10px 20px 10px 20px;
+    animation-iteration-count: infinite;
+}
+
+.right-buynow a.buy-now {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.right-buynow a.buy-now:hover {
+    background: #EA512E;
+    transition: 0.5s ease-out;
+}
+
+/* ========================= /Fixed buynow section end ========================= */
+
+/* ========================= Fixed up arrow section start ========================= */
+.homeuparrow {
+    position: fixed;
+    z-index: 9;
+    right: 20px;
+    bottom: 20px;
+    transition: .9s;
+    cursor: pointer;
+    padding: 8px 13px;
+    border-radius: 50%;
+    transform: translateY(-5%);
+    background-color: #1b0238;
+}
+
+.homeuparrow:hover {
+    background-color: #ea512e;
+    color: #ffffff;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.homeuparrow a {
+    color: #fff;
+    text-align: center;
+}
+
+/* ========================= /Fixed up arrow section end ========================= */
+
+/* ========================= /FIXED SECTION END ========================= */
