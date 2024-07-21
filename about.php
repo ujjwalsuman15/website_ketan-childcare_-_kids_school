@@ -521,7 +521,7 @@
     </section>
     <!-- ========================= /Pricing section end ========================= -->
 
-    <!-- =========================  Newsletter section end ========================= -->
+    <!-- =========================  Newsletter section start ========================= -->
     <div class="newsletter ptb-100">
         <div class="container">
             <div class="row">

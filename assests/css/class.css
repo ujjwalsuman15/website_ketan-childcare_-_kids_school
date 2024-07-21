@@ -1,0 +1,43 @@
+/* ======================================= CLASS SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+.class-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/classimg/class-banner.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.class-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.class-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.class-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.class-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.class-banner .class::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ======================================= /CLASS SECTION CSS END ======================================= */

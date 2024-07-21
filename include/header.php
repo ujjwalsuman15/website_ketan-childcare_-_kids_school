@@ -114,7 +114,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="event.php">
                                     Event
                                 </a>
                             </li>
@@ -132,7 +132,7 @@
                         </a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="class.php">
                                     Class
                                 </a>
                             </li>
@@ -150,7 +150,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="blog.php">
                                     Blog
                                 </a>
                             </li>

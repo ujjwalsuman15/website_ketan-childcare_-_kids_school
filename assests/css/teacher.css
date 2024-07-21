@@ -1,0 +1,43 @@
+/* ======================================= TEACHER SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+.teacher-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/teacherimg/teacher-banner.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+
+.teacher-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.teacher-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.teacher-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.teacher-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.teacher-banner .teacher::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ======================================= /TEACHER SECTION CSS END ======================================= */

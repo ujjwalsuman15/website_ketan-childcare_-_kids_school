@@ -1,0 +1,93 @@
+/* ======================================= EVENT SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+.event-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/eventimg/event-banner.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.event-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.event-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.event-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.event-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.event-banner .event::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Event Area section start ========================= */
+.event-area .event-item {
+    padding: 35px 15px;
+    background-color: #fdeee9;
+    box-shadow: unset;
+    margin-bottom: 30px;
+}
+
+.event-area .event-item .event-content h3 a {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #fcded3;
+    color: #ea512e;
+}
+
+.event-area .event-item .event-content h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.event-area .event-item .event-content p {
+    margin-bottom: 10px;
+}
+
+.event-area .event-item .event-content span {
+    color: #ea512e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.event-area .event-item .event-date {
+    text-align: center;
+}
+
+.event-area .event-item .event-date h4 {
+    font-size: 80px;
+    color: #ea512e;
+    margin-bottom: 0;
+}
+
+.event-area .event-item .event-date span {
+    font-size: 20px;
+    color: #ea512e;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* ========================= /Event Area section end ========================= */
+
+/* ======================================= /EVENT SECTION CSS END ======================================= */

@@ -6,6 +6,22 @@
 @import url(./about.css);
 /* ========================= /ABOUT SECTION CSS END ========================= */
 
+/* ========================= TEACHER SECTION CSS START ========================= */
+@import url(./teacher.css);
+/* ========================= /TEACHER SECTION CSS END ========================= */
+
+/* ========================= EVENT SECTION CSS START ========================= */
+@import url(./event.css);
+/* ========================= /EVENT SECTION CSS END ========================= */
+
+/* ========================= CLASS SECTION CSS START ========================= */
+@import url(./class.css);
+/* ========================= /CLASS SECTION CSS END ========================= */
+
+/* ========================= BLOG SECTION CSS START ========================= */
+@import url(./blog.css);
+/* ========================= /BLOG SECTION CSS END ========================= */
+
 /* ========================= UNIVERSAL CSS START ========================= */
 @import url(./universal.css);
 /* ========================= /UNIVERSAL CSS END ========================= */
