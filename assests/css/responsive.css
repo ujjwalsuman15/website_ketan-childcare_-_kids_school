@@ -1,4 +1,23 @@
-
 /* ======================== RESPONSIVE DIMENSIONS START ========================= */
+@media screen and (max-width: 1200px) {
+    .mt-200 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mt-200 {
+        margin-top: 10px;
+    }
+
+    .right-buynow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
 
 /* ========================= /RESPONSIVE DIMENSIONS END ========================= *=/

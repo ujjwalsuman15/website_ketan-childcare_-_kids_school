@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-white">
         <div class="container">
             <a class="navbar-brand" href="index.php" id="hometop">
                 <img src="./assests/img/logo.png" alt="logo">
@@ -96,7 +96,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="teacher.php">
                                     Teacher
                                 </a>
                             </li>

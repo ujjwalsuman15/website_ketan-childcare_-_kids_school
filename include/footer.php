@@ -16,7 +16,8 @@
                         incididunt ut
                         labore et dolore magna aliqua.
                     </p>
-                    <ul class="ketan-social-media">
+                    <ul class="ketan-social-media" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <li>
                             <a href="javascript:void()" target="_blank" title="facebook">
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -132,7 +133,8 @@
                     <h3>
                         Photo Gallery
                     </h3>
-                    <ul class="footer-photo-gallery">
+                    <ul class="footer-photo-gallery" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <li>
                             <div class="box">
                                 <img src="./assests/img/footer-gallery-1.jpg" alt="footer-gallery-1">

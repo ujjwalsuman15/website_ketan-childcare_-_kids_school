@@ -5,14 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ketan - childcare & kids school</title>
-    <link rel="shortcut icon" href="./assests/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./assests/css/style.css">
-    <!-- <meta http-equiv="refresh" content="59"> -->
+    <?php include 'include/toplink.php'?>
 </head>
 
 <body>
@@ -23,30 +16,30 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <div class="banner position-relative mt-8">
+    <div class="banner position-relative mt-8" data-aos="zoom-in-up">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-1 position-absolute top-4 shape-1">
-                    <img src="./assests/img/banner-shape-1.png" alt="owl1" class="img-fluid">
+                    <img src="./assests/img/banner-shape-1.png" alt="owl1" class="img-fluid d-none d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute shape-2">
-                    <img src="./assests/img/banner-shape-2.png" alt="bee" class="img-fluid">
+                    <img src="./assests/img/banner-shape-2.png" alt="bee" class="img-fluid d-none d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute bottom-4 shape-3">
-                    <img src="./assests/img/banner-shape-3.png" alt="bee" class="img-fluid">
+                    <img src="./assests/img/banner-shape-3.png" alt="bee" class="img-fluid d-none d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute shape-4">
-                    <img src="./assests/img/banner-shape-4.png" alt="bee" class="img-fluid">
+                    <img src="./assests/img/banner-shape-4.png" alt="bee" class="img-fluid d-none d-xl-block">
                 </div>
                 <div class="col-lg-12 position-absolute start-0 bottom-0">
-                    <img src="./assests/img/banner-bg-shape-1.png" alt="cloud" class="img-fluid"
+                    <img src="./assests/img/banner-bg-shape-1.png" alt="cloud" class="img-fluid d-none d-xl-block"
                         style="margin-left: -10px;">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right">
                     <p class="text-orange fw-bold mt-200">
                         Play, Learn and Grow
                     </p>
@@ -66,7 +59,7 @@
                 <div class="col-lg-6">
                     <div class="mt-5">
                         <img src="./assests/img/education-girl.png" alt="education-girl"
-                            class="img-fluid position-lg-absolute bottom-0 end-0" style="height: 95%;">
+                            class="img-fluid position-lg-absolute bottom-10 end-0" style="height: 77%; width: 800%;">
                     </div>
                 </div>
             </div>
@@ -78,15 +71,16 @@
     <section class="whoweare ptb-100 position-relative">
         <div class="container-fluid">
             <div class="col-lg-1 position-absolute shape-5">
-                <img src="./assests/img/who-we-are-shape.png" alt="who-we-are-shape" class="img-fluid">
+                <img src="./assests/img/who-we-are-shape.png" alt="who-we-are-shape"
+                    class="img-fluid d-none d-xl-block">
             </div>
         </div>
         <div class="container">
             <div class="row pt-5">
-                <div class="col-md-6 boy-image">
+                <div class="col-md-6 boy-image" data-aos="fade-right">
                     <img src="./assests/img/who-we-are.jpg" alt="who-we-are-image" class="img-fluid ">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <span>
                         Who We Are
                     </span>
@@ -125,16 +119,6 @@
                             Read More
                         </a>
                     </div>
-
-                    <!-- <div>
-                        <a href="javascript:void()" class="btu text-decoration-none" id="btuu">
-                            <span></span>
-                            Read More
-                        </a>
-                    </div> -->
-
-
-
                 </div>
             </div>
         </div>
@@ -146,16 +130,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-center d-block">
+                    <span class="text-center d-block" data-aos="fade-up-right">
                         Classes
                     </span>
-                    <h3 class="text-center">
+                    <h3 class="text-center" data-aos="fade-up-right">
                         Popular Classes
                     </h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -205,7 +190,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -256,7 +242,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -324,10 +311,10 @@
     <section class="core-value ptb-100 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="3000">
                     <img src="./assests/img/value-1.png" alt="value-1" class="img-fluid">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <span>Our Core Values</span>
                     <h3>
                         We are Refunding Early Childcare Education
@@ -385,7 +372,7 @@
             <span class="text-center d-block">Our Core Teacher</span>
             <h3 class="text-center">Meet Our Teacher</h3>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-1.jpg" alt="teacher-1" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -418,7 +405,7 @@
                         <span>Music Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-2.jpg" alt="teacher-2" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -451,7 +438,7 @@
                         <span>Art Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-3.jpg" alt="teacher-3" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -484,7 +471,7 @@
                         <span>Math Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-4.jpg" alt="teacher-4" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -637,13 +624,16 @@
                 <span class="text-center d-block">Events</span>
                 <h3 class="text-center">Upcoming Events</h3>
             </div>
-            <div class="container event-background bg-light p-4 rounded-3 mt-4">
+            <div class="container event-background bg-light p-4 rounded-3 mt-4" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
                 <div class="event-content">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src="./assests/img/event-1.png" alt="event-1" class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                             <h3>
                                 <a href="javascript:void()" class="text-decoration-none">
                                     Annual Cultural Programme
@@ -660,7 +650,8 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="event-date text-center">
                                 <h1>17</h1>
                                 <span>January</span>
@@ -669,13 +660,16 @@
                     </div>
                 </div>
             </div>
-            <div class="container event-background bg-light p-4 rounded-3 mt-5">
+            <div class="container event-background bg-light p-4 rounded-3 mt-5" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
                 <div class="event-content">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src="./assests/img/event-2.png" alt="event-2" class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                             <h3>
                                 <a href="javascript:void()" class="text-decoration-none">
                                     World Kids Day
@@ -692,7 +686,8 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="event-date text-center">
                                 <h1>20</h1>
                                 <span>February</span>
@@ -701,13 +696,16 @@
                     </div>
                 </div>
             </div>
-            <div class="container event-background bg-light p-4 rounded-3 mt-5">
+            <div class="container event-background bg-light p-4 rounded-3 mt-5" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
                 <div class="event-content">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src="./assests/img/event-3.png" alt="event-3" class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                             <h3>
                                 <a href="javascript:void()" class="text-decoration-none">
                                     World Drawing Day
@@ -724,7 +722,8 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="event-date text-center">
                                 <h1>09</h1>
                                 <span>March</span>
@@ -733,13 +732,16 @@
                     </div>
                 </div>
             </div>
-            <div class="container event-background bg-light p-4 rounded-3 mt-5">
+            <div class="container event-background bg-light p-4 rounded-3 mt-5" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
                 <div class="event-content">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src="./assests/img/event-4.png" alt="event-4" class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                             <h3>
                                 <a href="javascript:void()" class="text-decoration-none">
                                     Teacher's Day
@@ -756,7 +758,8 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="event-date text-center">
                                 <h1>05</h1>
                                 <span>September</span>
@@ -765,13 +768,16 @@
                     </div>
                 </div>
             </div>
-            <div class="container event-background bg-light p-4 rounded-3 mt-5">
+            <div class="container event-background bg-light p-4 rounded-3 mt-5" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
                 <div class="event-content">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src="./assests/img/event-1.png" alt="event-1" class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                             <h3>
                                 <a href="javascript:void()" class="text-decoration-none">
                                     Children's Day
@@ -788,7 +794,8 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="event-date text-center">
                                 <h1>14</h1>
                                 <span>November</span>
@@ -809,7 +816,7 @@
                 <h3 class="text-center">Latest News</h3>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -848,7 +855,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -887,7 +894,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -940,10 +947,7 @@
     <!-- ========================= /Fixed section end ========================= -->
 
     <!-- script section start -->
-    <script src="./assests/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <?php include 'include/scriptlink.php'?>
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,

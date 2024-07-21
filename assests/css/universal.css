@@ -60,6 +60,10 @@ p:last-child {
     bottom: 4%;
 }
 
+.bottom-10 {
+    bottom: 15%;
+}
+
 .bottom-right-4 {
     bottom: 0%;
     right: 4%;
