@@ -162,7 +162,7 @@
                         </ul>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link fw-bold text-black" aria-current="page" href="javascript:void()">
+                        <a class="nav-link fw-bold text-black" aria-current="page" href="contact.php">
                             Contact
                         </a>
                     </li>

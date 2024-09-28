@@ -17,8 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" class-banner ptb-200 mt-80" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+    <section class=" class-banner ptb-200 mt-80">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -38,7 +37,6 @@
         </div>
     </section>
     <!-- ========================= /Hero section end ========================= -->
-
 
     <!-- ========================= Popular section start ========================= -->
     <section class="popular pt-100 pb-70 position-relative">
