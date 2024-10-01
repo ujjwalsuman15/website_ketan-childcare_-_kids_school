@@ -41,7 +41,127 @@
 /* ========================= /Banner section end ========================= */
 
 /* Ready to Get Start section start */
+.contact-form h3 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.contact-form #contactform .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form #contactform .form-group .form-control {
+    height: 60px;
+    padding: 0 0 0 15px;
+    line-height: initial;
+    color: #1b0238;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: unset !important;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-form #contactform .form-group .form-control:focus {
+    border-color: #ea512e;
+}
+
+.contact-form #contactform .form-group textarea.form-control {
+    height: auto;
+    padding: 15px 0 0 15px;
+}
+
+.contact-form #contactform button {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.contact-form #contactform .btn {
+    position: relative;
+    z-index: 1;
+    border: rgb(68, 0, 255);
+}
+
+.contact-form #contactform #msgSubmit {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.contact-info .contact-list {
+    padding-left: 0;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.contact-info .contact-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 26px;
+}
+
+.contact-info .contact-list li .i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #ea512e;
+    font-size: 20px;
+}
+
+.contact-info .contact-list li span {
+    font-weight: 600;
+    color: #1b0238;
+}
+
+.contact-info .contact-list li a {
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+.contact-info .contact-list li a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-in-out;
+}
+
+.contact-info .contact-list li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background-color: #ea512e;
+}
+
+.contact-info .contact-list li a:hover::before {
+    width: 100%;
+}
+
+.contact-info .opening-hours {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.contact-info .opening-hours li {
+    margin-bottom: 10px;
+}
 
 /* /Ready to Get Start section end */
+
+/* map section start */
+#map iframe {
+    border: none;
+    width: 100%;
+    height: 450px;
+    margin-bottom: -8px;
+}
+
+/* /map section end */
 
 /* ======================================= /CONTACT SECTION CSS END ======================================= */
