@@ -50,6 +50,18 @@
 @import url(./responsive.css);
 /* ======================== /RESPONSIVE DIMENSIONS END ========================= */
 
+/* ======================== teacher-details START ========================= */
+@import url(./teacher-details.css);
+/* ======================== /teacher-details END ========================= */
+
+/* ======================== event-details START ========================= */
+@import url(./event-details.css);
+/* ======================== /event-details END ========================= */
+
+/* ======================== class-details START ========================= */
+@import url(./class-details.css);
+/* ======================== /class-details END ========================= */
+
 
 * {
     margin: 0px;

@@ -1,0 +1,114 @@
+/* ======================================= EVENTS-DETAILS SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+.event-details-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/event-detailimg/page-banner-4.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.event-details-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.event-details-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.event-details-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.event-details-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.event-details-banner .event-details::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section END ========================= */
+
+/* ========================= event-details-area section start ========================= */
+
+#map {
+    margin-top: 30px;
+}
+
+.event-details-information {
+    background: #ffffff;
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-top: 3px solid #ea512e;
+    padding: 40px 30px;
+    position: sticky;
+    top: 110px;
+}
+
+.event-details-information h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+.event-details-information h3::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #ea512e;
+}
+
+.event-details-information ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.event-details-information ul li {
+    list-style-type: none;
+    color: #6b6b84;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.event-details-information ul li span {
+    color: #1B0238;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.event-details-information ul li:last-child {
+    margin-bottom: 0;
+}
+
+.event-details-information ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b6b84;
+}
+
+.event-details-information ul li a:hover {
+    color: #ea512e;
+}
+
+/* ========================= /event-details-area section end ========================= */
+
+/* ======================================= /EVENTS-DETAILS SECTION CSS END ======================================= */

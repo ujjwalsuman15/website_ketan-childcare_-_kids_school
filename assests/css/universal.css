@@ -85,6 +85,10 @@ p:last-child {
     padding-top: 100px;
 }
 
+.pb-30 {
+    padding-bottom: 30px;
+}
+
 .pb-70 {
     padding-bottom: 70px;
 }
@@ -150,6 +154,23 @@ p:last-child {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
 }
 
 .btn {

@@ -1,0 +1,182 @@
+/* ======================================= TEACHER-DETAILS SECTION CSS START ======================================= */
+
+
+/* ========================= Banner section start ========================= */
+.teacher-details-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/teacher-detailimg/page-banner-5.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+
+.teacher-details-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.teacher-details-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.teacher-details-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.teacher-details-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.teacher-details-banner .teacher-details::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section END ========================= */
+
+/* ========================= teachers-details-area section start ========================= */
+.teacher-para .skills-range .skill-range {
+    margin-top: 30px;
+}
+
+.teacher-para .skills-range .skill-range .progress-title-holder {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.teacher-para p {
+    font-size: 15px;
+}
+
+.teacher-para .skills-range .skill-range .progress-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1b0238;
+}
+
+.teacher-para .skills-range .skill-range .progress-number-wrapper {
+    width: 100%;
+    z-index: 10;
+    font-size: 11px;
+    line-height: 24px;
+    height: 24px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.teacher-para .skills-range .skill-range .progress-number-mark {
+
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #1b0238;
+    font-weight: 500;
+}
+
+.teacher-para .skills-range .skill-range .down-arrow {
+    display: none;
+}
+
+.teacher-para .skills-range .skill-range .progress-content-outter {
+    height: 6px;
+    background: #e4e4e4;
+    border-radius: 4px;
+}
+
+.teacher-para .skills-range .skill-range .progress-content {
+    height: 6px;
+    background: #fdbb22;
+    border-radius: 4px;
+    width: 0%;
+}
+
+.teacher-para .skills-range .skill-range .progress-content.two {
+    background: #ec471a;
+}
+
+.teacher-para .skills-range .skill-range .progress-content.three {
+    background: #024982;
+}
+
+.teacher-para .skills-range .skill-range .progress-content.four {
+    background: #5dba3b;
+}
+
+.teacher-para .skills-range .skill-range .progress-content.five {
+    background: #ff0057;
+}
+
+.teacher-details-information {
+    background: #ffffff;
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-top: 3px solid #ea512e;
+    padding: 40px 30px;
+    position: sticky;
+    top: 110px;
+}
+
+.teacher-details-information h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+.teacher-details-information h3::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #ea512e;
+}
+
+.teacher-details-information ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.teacher-details-information ul li {
+    list-style-type: none;
+    color: #6b6b84;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.teacher-details-information ul li span {
+    color: #1b0238;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.teacher-details-information ul li:last-child {
+    margin-bottom: 0;
+}
+
+.teacher-details-information ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b6b84;
+}
+
+/* ========================= /teachers-details-area section end ========================= */
+
+/* ======================================= /TEACHER-DETAILS SECTION CSS END ======================================= */

@@ -101,7 +101,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="teacher-details.php">
                                     Teacher Details
                                 </a>
                             </li>
@@ -119,7 +119,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="event-details.php">
                                     Event Details
                                 </a>
                             </li>
@@ -137,7 +137,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="class-details.php">
                                     Class Details
                                 </a>
                             </li>

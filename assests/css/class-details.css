@@ -1,0 +1,257 @@
+/* ======================================= CLASS-DETAILS SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+.class-details-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/class-detailimg/page-banner-5.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.class-details-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.class-details-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.class-details-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.class-details-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.class-details-banner .class-details::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section END ========================= */
+
+/* ========================= class-details-area section start ========================= */
+.class-details-area .class-para-tab {
+    margin-top: 30px;
+}
+
+.class-details-area .class-para-tab .tabs {
+    list-style-type: none;
+    margin-bottom: -1px;
+    padding-left: 0;
+}
+
+.class-details-area .class-para-tab .tabs li {
+    display: inline-block;
+    line-height: initial;
+    margin-right: 5px;
+}
+
+.class-details-area .class-para-tab .tabs li a {
+    display: inline-block;
+    position: relative;
+    color: #1b0238;
+    text-decoration: none;
+    background-color: #fcefea;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 35px;
+    width: 100%;
+}
+
+.class-details-area .class-para-tab .tabs li.current a {
+    color: #ffffff;
+    background: #ea512e;
+    border-color: #ea512e;
+}
+
+.class-details-area .class-para-tab .tabs li a:hover {
+    background: #ea512e;
+    color: #ffffff;
+}
+
+.class-details-area .para-content .para-item:first-child {
+    display: block;
+}
+
+/* .class-details-area .para-content .para-item {
+    display: none;
+} */
+
+.class-details-area .para-content .para-item .class-para-content h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.class-details-area .para-content .para-item .class-para-content p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.class-details-area .para-content .para-item .class-para-content .requirements-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.class-details-area .para-content .para-item .class-para-content .requirements-list li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6b6b84;
+}
+
+.class-details-area .para-content .para-item .class-para-content .requirements-list li .i {
+    color: #ea512e;
+}
+
+.class-details-area .para-content .para-item .class-para-content .requirements-list li:last-child {
+    margin-bottom: 0;
+}
+
+.class-details-sidetab {
+    position: sticky;
+    top: 110px;
+}
+
+.class-details-information {
+    background: #ffffff;
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-top: 3px solid #ea512e;
+    padding: 40px 30px;
+}
+
+.class-details-information h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+.class-details-information h3::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #ea512e;
+}
+
+.class-details-information ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.class-details-information ul li {
+    list-style-type: none;
+    color: #6b6b84;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.class-details-information ul li span {
+    color: #1B0238;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.class-details-information ul li:last-child {
+    margin-bottom: 0;
+}
+
+.class-subscribe {
+    background: #fcefea;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.class-details-information .class-subscribe .subscribe-content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.class-details-information .class-subscribe .subscribe-content h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.class-subscribe .subscribe-form .input-subscribe {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    height: 55px;
+    padding-left: 15px;
+    border-radius: 0;
+    outline: 0;
+    color: #1b0238;
+}
+
+.class-subscribe .subscribe-form button {
+    background: #ea512e;
+    color: #ffffff;
+    border: none;
+    height: 55px;
+    padding: 0 60px;
+    transition: 0.5s;
+    line-height: 55px;
+    font-weight: 500;
+    border-radius: 0;
+    transition: 0.5s;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.class-subscribe .subscribe-form #validator-subscribe {
+    color: red;
+    position: relative;
+    top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.class-subscribe .subscribe-form #validator-subscribe {
+    color: red;
+    margin-top: 15px;
+    font-weight: 400;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* ========================= /class-details-area section end ========================= */
+
+/* ========================= popular section start ========================= */
+
+.popular-class h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+/* ========================= /popular section end ========================= */
+
+/* ======================================= /CLASS-DETAILS SECTION CSS END ======================================= */

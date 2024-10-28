@@ -116,7 +116,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:void()" title="Teacher's Day">
+                            <a href="teacher-details.php" title="Teacher's Day">
                                 Teacher's Day
                             </a>
                         </li>
