@@ -1,0 +1,98 @@
+/* ======================================= BLOG-DETAILS SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+.blog-details-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/blog-detailimg/page-banner-4.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.blog-details-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.blog-details-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.blog-details-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.blog-details-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.blog-details-banner .blog-details::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section END ========================= */
+
+/* ========================= PARA section START ========================= */
+.class-details-area .blog-post p a {
+    transition: 0.5s ease-in;
+    color: #6b6b84;
+}
+
+.class-details-area .blog-post p a:hover {
+    transition: 0.5s ease-in;
+    color: #ea512e;
+}
+
+.class-details-area .blog-post .blog-para .elements-list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.class-details-area .blog-post .blog-para ul li {
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 34px;
+    color: #6b6b84;
+}
+
+.class-details-area .blog-post .blog-para .elements-list li span .svg-inline--fa {
+    font-size: 11px;
+}
+
+.class-details-area .blog-post .blog-para .elements-list li span {
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #faf5f5;
+    color: #f5890d;
+    transition: 0.5s ease-in;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.class-details-area .blog-post .blog-para .elements-list li:hover span {
+    transition: 0.5s ease-out;
+    background: #ea512e;
+    color: #ffffff;
+}
+
+.class-details-area .blog-post .blog-para .elements-list li span:last-child {
+    margin-bottom: 0;
+}
+
+/* ========================= /PARA section END ========================= */
+
+/* ======================================= /BLOG-DETAILS SECTION CSS END ======================================= */

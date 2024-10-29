@@ -62,6 +62,10 @@
 @import url(./class-details.css);
 /* ======================== /class-details END ========================= */
 
+/* ======================== blog-details START ========================= */
+@import url(./blog-details.css);
+/* ======================== /blog-details END ========================= */
+
 
 * {
     margin: 0px;

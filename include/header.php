@@ -155,7 +155,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="blog-details.php">
                                     Blog Details
                                 </a>
                             </li>
