@@ -93,6 +93,218 @@
     margin-bottom: 0;
 }
 
+.class-details-area .blog-post .bookmark {
+    margin: 20px 0px;
+}
+
+.class-details-area .blog-post .bookmark span {
+    display: inline-block;
+    color: #1b0238;
+    font-size: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.class-details-area .blog-post .bookmark .preschool a {
+    color: #6b6b84;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+
+.class-details-area .blog-post .bookmark .preschool a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-in-out;
+}
+
+.class-details-area .blog-post .bookmark ul.share-link {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.class-details-area .blog-post .bookmark .share-link li span {
+    display: inline-block;
+    margin-right: 2px;
+    font-weight: 500;
+    color: #6b6b84;
+    font-size: 16px;
+    top: auto;
+}
+
+.class-details-area .blog-post .bookmark .share-link li {
+    display: inline-block;
+}
+
+.class-details-area .blog-post .bookmark .share-link li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ea512e;
+    background: #eeeef0;
+    transition: 0.5s ease-in-out;
+
+}
+
+.class-details-area .blog-post .bookmark .share-link li a:hover {
+    color: #ffffff;
+    background: #ea512e;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-2px);
+}
+
+.class-details-area .preview {
+    margin-top: 30px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.class-details-area .preview .right {
+    text-align: right;
+}
+
+.class-details-area .preview .left a,
+.class-details-area .preview .right a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.class-details-area .preview .left a .i {
+    margin-right: 5px;
+    transition: 0.5s;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.class-details-area .preview .right a .i {
+    margin-left: 5px;
+    transition: 0.5s;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.class-details-area .preview .right a:hover {
+    color: #ea512e;
+    transition: 0.5s;
+    transform: translateX(2px);
+}
+
+.class-details-area .preview .left a:hover {
+    color: #ea512e;
+    transition: 0.5s;
+    transform: translateX(-2px);
+}
+
+.class-details-area .preview .left a:hover .i {
+    transition: 0.5s;
+    margin-right: 0;
+}
+
+.class-details-area .preview .right a:hover .i {
+    transition: 0.5s;
+    margin-left: 0;
+}
+
+/* ========================= comment section start ========================= */
+.class-details-area .comment-section {
+    margin-top: 30px;
+}
+
+.class-details-area .comment-section .comment-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #1b0238;
+    font-weight: bold;
+}
+
+.class-details-area .comment-section .comment-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.comment-section .comment-body {
+    border-bottom: 1px dashed #eeeeee;
+    padding-left: 70px;
+    color: #1b0238;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.comment-section .comment-author {
+    font-size: 16px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.comment-section .comment-author .avtar {
+    height: 50px;
+    left: -65px;
+    position: absolute;
+    width: 50px;
+}
+
+.comment-section .comment-author .fn {
+    font-weight: 600;
+}
+
+.comment-section .comment-metadata {
+    color: #6b6b84;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment-section .comment-metadata a {
+    display: inline-block;
+    color: #6b6b84;
+}
+
+.comment-section .comment-metadata a:hover {
+    color: #f5890d;
+}
+
+.comment-content a:hover p:last-child {
+    margin-bottom: 0;
+}
+
+.comment-section .comment-body .reply {
+    margin-top: 15px;
+}
+
+.comment-section .comment-body .reply a {
+    border: 1px dashed #ded9d9;
+    color: #1b0238;
+    display: inline-block;
+    padding: 5px 25px 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.comment-section .comment-body .reply a:hover {
+    color: #ffffff;
+    background-color: #f5890d;
+    border-color: #f5890d;
+}
+
+.comment-section .children {
+    margin-left: 20px;
+}
+
+/* ========================= /comment section end ========================= */
+
 /* ========================= /PARA section END ========================= */
 
 /* ======================================= /BLOG-DETAILS SECTION CSS END ======================================= */

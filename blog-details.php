@@ -137,6 +137,145 @@
                                 quisquam ut.
                             </p>
                         </div>
+                        <div class="bookmark">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="preschool">
+                                        <span>
+                                            <i class="fa-solid fa-bookmark"></i>
+                                        </span>
+                                        <a href="javascript:void()"> Preschool </a>
+                                        ,
+                                        <a href="javascript:void()"> Children </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="share-link">
+                                        <li>
+                                            <span> Share: </span>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preview">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="left">
+                                    <a href="javascript:void()">
+                                        <i class="fa-solid fa-chevron-left i"></i>
+                                        Prev Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="right">
+                                    <a href="javascript:void()">
+                                        Next Post
+                                        <i class="fa-solid fa-chevron-right i"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-section">
+                        <h3 class="comment-title">3 Comments:</h3>
+                        <ol class="comment-list">
+                            <li class="comment">
+                                <div class="comment-body">
+                                    <div class="comment-meta">
+                                        <div class="comment-author">
+                                            <img src="assests/img/blog-detailimg/client-1.png" class="avtar"
+                                                alt="image">
+                                            <b class="fn">John Jones</b>
+                                        </div>
+                                        <div class="comment-metadata">
+                                            <a href="javascript:void()">
+                                                <span>April 24, 2024 at 10:59 am </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="comment-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                            consequuntur nesciunt dolorem autem maxime consectetur iusto non quos
+                                            blanditiis, laudantium ullam, facilis velit facere soluta saepe voluptatum,
+                                            est ducimus asperiores nulla eveniet eos nisi fugit.
+                                        </p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="javascript:void()" class="comment-reply-link">
+                                            Reply
+                                        </a>
+                                    </div>
+                                </div>
+                                <ol class="children">
+                                    <li class="comment">
+                                        <div class="comment-body">
+                                            <div class="comment-meta">
+                                                <div class="comment-author vcard">
+                                                    <img src="assests/img/blog-detailimg/client-2.png" class="avtar"
+                                                        alt="image">
+                                                    <b class="fn">Steven Smith</b>
+                                                </div>
+                                                <div class="comment-metadata">
+                                                    <a href="javascript:void()">
+                                                        <span>April 24, 2024 at 10:59 am</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="comment-content">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+                                                    dicta fugit! Sit veniam alias nam eius deleniti quisquam tenetur,
+                                                    maiores quaerat. Tenetur aperiam nam commodi eveniet nulla quo
+                                                    explicabo vero soluta hic aliquid, dolores accusamus!</p>
+                                            </div>
+                                            <div class="reply">
+                                                <a href="javascript:void()" class="comment-reply-link">Reply</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                                <div class="comment-body">
+                                    <div class="comment-meta">
+                                        <div class="comment-author vcard">
+                                            <img src="assests/img/blog-detailimg/client-3.png" class="avtar"
+                                                alt="image">
+                                            <b class="fn">Sarah Taylor</b>
+                                        </div>
+                                    </div>
+                                    <div class="comment-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem assumenda
+                                            harum magni corporis odit totam dignissimos saepe minus aut aperiam. Omnis
+                                            quam repellat voluptatibus laborum consectetur, ullam rerum eligendi eius
+                                            error quibusdam impedit, magni ipsa.
+                                        </p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="javascript:void()" class="comment-reply-link">Reply</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
