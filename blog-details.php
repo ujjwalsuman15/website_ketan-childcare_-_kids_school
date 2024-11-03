@@ -39,7 +39,7 @@
     <!-- ========================= /Hero section end ========================= -->
 
     <!-- ========================= class-details-area section start ========================= -->
-    <section class="class-details-area pt-100 pb-30">
+    <section class="class-details-area ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12">
@@ -260,6 +260,11 @@
                                                 alt="image">
                                             <b class="fn">Sarah Taylor</b>
                                         </div>
+                                        <div class="comment-metadata">
+                                            <a href="javascript:void()">
+                                                <span>April 24, 2024 at 10:59 am</span>
+                                            </a>
+                                        </div>
                                     </div>
                                     <div class="comment-content">
                                         <p>
@@ -276,6 +281,53 @@
                             </li>
                         </ol>
 
+                    </div>
+                    <div class="respond">
+                        <h3 class="respond-title">leave a Reply</h3>
+                        <form class="respond-form">
+                            <p class="respond-notes">
+                                <span class="e-notes">
+                                    Your email address will not be published.
+                                </span>
+                                Required fields are marked
+                                <span class="required">*</span>
+                            </p>
+                            <p class="respond-form-name">
+                                <label>
+                                    name
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required="required">
+                            </p>
+                            <p class="respond-form-mail">
+                                <label>
+                                    Email
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"
+                                    required="required">
+                            </p>
+                            <p class="respond-form-url">
+                                <label>Website</label>
+                                <input type="url" name="url" id="url" placeholder="website">
+                            </p>
+                            <p class="respond-form-comment">
+                                <label>Comment</label>
+                                <textarea name="comment" id="comment" placeholder="Your Comment..." rows="5"
+                                    cols="45"></textarea>
+                            </p>
+                            <p class="respond-form-cookies-consent">
+                                <input type="checkbox" value="yes" name="wp-comment-cookies-consent"
+                                    id="wp-comment-cookies-consent">
+                                <label for="wp-comment-cookies-consent">
+                                    Save my name, email, and website in this browser
+                                    for the next time I comment.
+                                </label>
+                            </p>
+                            <p class="respond-form-submit">
+                                <input type="submit" name="submit" id="submit" class="submit" value="Post A Comment">
+                            </p>
+                        </form>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
