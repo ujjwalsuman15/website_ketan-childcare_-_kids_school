@@ -66,6 +66,61 @@
 @import url(./blog-details.css);
 /* ======================== /blog-details END ========================= */
 
+/* ======================== gallery section START ========================= */
+@import url(./gallery.css);
+/* ======================== /gallery section END ========================= */
+
+/* ======================== pricing section START ========================= */
+@import url(./pricing.css);
+/* ======================== /pricing section END ========================= */
+
+/* ======================== howtoapply section START ========================= */
+@import url(./howtoapply.css);
+/* ======================== /howtoapply section END ========================= */
+
+/* ======================== programs section START ========================= */
+@import url(./programs.css);
+/* ======================== /programs section END ========================= */
+
+/* ======================== enroll section START ========================= */
+@import url(./enroll.css);
+/* ======================== /enroll section END ========================= */
+
+/* ======================== timetable section START ========================= */
+@import url(./timetable.css);
+/* ======================== /timetable section END ========================= */
+
+/* ======================== faq section START ========================= */
+@import url(./faq.css);
+/* ======================== /faq section END ========================= */
+
+/* ======================== account section START ========================= */
+/* ======================== login section START ========================= */
+@import url(./login.css);
+/* ======================== /login section END ========================= */
+
+/* ======================== register section START ========================= */
+@import url(./register.css);
+/* ======================== /register section END ========================= */
+/* ======================== /account section END ========================= */
+
+/* ======================== errorpage section START ========================= */
+@import url(./errorpage.css);
+/* ======================== /errorpage section END ========================= */
+
+/* ======================== termsofservice section START ========================= */
+@import url(./termsofservice.css);
+/* ======================== /termsofservice section END ========================= */
+
+/* ======================== privacypolicy section START ========================= */
+@import url(./privacypolicy.css);
+/* ======================== /privacypolicy section END ========================= */
+
+/* ======================== comingsoon section START ========================= */
+@import url(./comingsoon.css);
+/* ======================== /comingsoon section END ========================= */
+
+
 
 * {
     margin: 0px;

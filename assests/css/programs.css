@@ -1,0 +1,83 @@
+/* ======================================= PROGRAMS SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.programs-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/programsimg/page-banner-5.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.programs-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.programs-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.programs-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.programs-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.programs-banner .programs::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Interested section start ========================= */
+.interested-area {
+    background-image: url(../img/programsimg/overview-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.interested-area .interested-content {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px;
+    max-width: 750px;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.interested-area .interested-content h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.interested-area .interested-content p {
+    margin-bottom: 0;
+}
+
+.interested-area .interested-content .interested-btn {
+    margin-top: 30px;
+}
+
+
+/* ========================= /Interested section end ========================= */
+
+/* ======================================= /PROGRAMS SECTION CSS END ======================================= */

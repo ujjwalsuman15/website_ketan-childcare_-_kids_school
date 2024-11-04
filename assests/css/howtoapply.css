@@ -1,0 +1,90 @@
+/* ======================================= HOW TO APPLY SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.howtoapply-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/howtoapplyimg/page-banner-4.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.howtoapply-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.howtoapply-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.howtoapply-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.howtoapply-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.howtoapply-banner .howtoapply::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Apply section start ========================= */
+
+.apply-area .apply-form {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px;
+}
+
+.apply-area .apply-form .content {
+    margin-bottom: 30px;
+}
+
+.apply-area .apply-form .content h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.apply-area .apply-form form .form-group {
+    margin-bottom: 15px;
+}
+
+.apply-area .apply-form form .form-group .form-control {
+    height: 60px;
+    color: #1b0238;
+    box-shadow: unset !important;
+    border: 1px solid #eeeeee;
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+}
+
+.apply-area .apply-form form .form-group .form-control:focus {
+    border-color: #ea512e;
+    background-color: transparent;
+}
+
+
+/* ========================= /Apply section end ========================= */
+
+/* ======================================= /HOW TO APPLY SECTION CSS END ======================================= */

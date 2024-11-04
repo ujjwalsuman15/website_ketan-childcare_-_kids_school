@@ -331,44 +331,154 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="class-details-sidetab">
-                        <div class="class-details-information">
-                            <h3>Information</h3>
+                    <div class="blog-details-sidetab">
+                        <div class="sidetab sidetab-search">
+                            <h3 class="sidetab-title">
+                                Search
+                            </h3>
+                            <form class="search-form">
+                                <label>
+                                    <span class="screen-text">
+                                        Search for:
+                                    </span>
+                                    <input type="search" class="search-field" placeholder="Search...">
+                                </label>
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass i"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="sidetab sidetab-ketan-posts-thumb">
+                            <h3 class="sidetab-title">
+                                Popular Posts
+                            </h3>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg1" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>June 10, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            The Data Surrounding Higher Education
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg2" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>June 21, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            Conversion Rate the Sales Funnel Optimization
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg3" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>June 30, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            Business Data is changing the world's Energy
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg4" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>May 10, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            The Billionare Fuide On Design That Will Get you Rich
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg5" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>May 21, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            The Data-Driven Approach To Understanding Your Users
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <a href="javascript:void()" class="thumb">
+                                    <span class="fullimage cover bg6" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>May 30, 2024</span>
+                                    <h4 class="title usmall">
+                                        <a href="javascript:void()">
+                                            7 Great Tips For Earn More Money From Digital Industry
+                                        </a>
+                                    </h4>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="sidetab sidetab-categories">
+                            <h3 class="sidetab-title">
+                                Categories
+                            </h3>
                             <ul>
                                 <li>
-                                    <span>Student:</span>
-                                    25
+                                    <a href="javascript:void()">
+                                        Alphabet Parade
+                                    </a>
                                 </li>
                                 <li>
-                                    <span>Lectures:</span>
-                                    6
-                                </li>
-                                <li></li>
-                                <li>
-                                    <span>Time:</span>
-                                    9AM - 11:30AM
+                                    <a href="javascript:void()">
+                                        Auditory Processing
+                                    </a>
                                 </li>
                                 <li>
-                                    <span>Learn Day:</span>
-                                    Monday, Wednesday
+                                    <a href="javascript:void()">
+                                        Gross Motor
+                                    </a>
                                 </li>
                                 <li>
-                                    <span>Language:</span>
-                                    English
+                                    <a href="javascript:void()">
+                                        Kindergarten
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void()">
+                                        Games
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void()">
+                                        Inspire Success
+                                    </a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="class-subscribe">
-                            <div class="subscribe-content">
-                                <h3>Subscribe to Our Newsletter</h3>
+                        <div class="sidetab sidetab-tags">
+                            <h3 class="sidetab-title">
+                                Popular Tags
+                            </h3>
+                            <div class="tags">
+                                <a href="javascript:void()">Preschool</a>
+                                <a href="javascript:void()">Children</a>
+                                <a href="javascript:void()">Activities</a>
+                                <a href="javascript:void()">Educational</a>
+                                <a href="javascript:void()">Teachers</a>
                             </div>
-                            <form class="subscribe-form" data-bs-toggle="validator" novalidate="true">
-                                <input type="email" class="input-subscribe" placeholder="Enter your email" name="EMAIL"
-                                    required="" autocomplete="off">
-                                <button type="submit" class="disabled"
-                                    style="pointer-events: all; cursor: pointer;">Subscribe</button>
-                                <div id="validator-subscribe" class="form-result"></div>
-                            </form>
                         </div>
                     </div>
                 </div>

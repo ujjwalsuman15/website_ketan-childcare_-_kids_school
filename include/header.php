@@ -28,62 +28,75 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="gallery.php">
                                     Gallery
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="pricing.php">
                                     Pricing
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="howtoapply.php">
                                     How to Apply
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="programs.php">
                                     Programs
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="enroll.php">
                                     Enroll
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="timetable.php">
                                     Timetable
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="faq.php">
                                     FAQ
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="nav-link dropdown-toggle fw-bold text-black ms-2" href="javascript:void()"
+                                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Account
                                 </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item fw-bold" href="login.php">
+                                            Login
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item fw-bold" href="register.php">
+                                            Register
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="errorpage.php">
                                     Error Page
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="termsofservice.php">
                                     Terms of Service
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="privacypolicy.php">
                                     Privacy Policy
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item fw-bold" href="javascript:void()">
+                                <a class="dropdown-item fw-bold" href="comingsoon.php">
                                     Coming Soon
                                 </a>
                             </li>

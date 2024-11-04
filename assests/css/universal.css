@@ -93,6 +93,10 @@ p:last-child {
     padding-bottom: 70px;
 }
 
+.pb-50 {
+    padding-bottom: 50px;
+}
+
 .ptb-200 {
     padding-top: 200px;
     padding-bottom: 200px;

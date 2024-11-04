@@ -1,0 +1,239 @@
+/* ======================================= GALLERY SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.enroll-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/enrollimg/page-banner-1.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.enroll-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.enroll-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.enroll-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.enroll-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.enroll-banner .enroll::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Quote section start ========================= */
+.enroll-quote-area .enroll-quote-image {
+    background-image: url(../img/enrollimg/quote.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.enroll-quote-area .enroll-quote-item {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px;
+}
+
+.enroll-quote-area .enroll-quote-item .content {
+    margin-bottom: 30px;
+}
+
+.enroll-quote-area .enroll-quote-item .content span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.enroll-quote-area .enroll-quote-item .content h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-group {
+    margin-bottom: 15px;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-control {
+    height: 70px;
+    color: #1b0238;
+    box-shadow: unset !important;
+    border: 1px solid #eeeeee;
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-control:focus {
+    border-color: #ea512e;
+    background-color: transparent;
+}
+
+/* ========================= /Quote section end ========================= */
+
+/* ========================= Enrollment section start ========================= */
+.entollment-area .enrollment-content {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 30px;
+}
+
+.entollment-area .enrollment-content .content {
+    margin-bottom: 25px;
+}
+
+.entollment-area .enrollment-content .content h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.entollment-area .enrollment-content .accordion {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.entollment-area .enrollment-content .accordion .accordion-item {
+    display: block;
+    border: 1px solid #f3f3f3;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.entollment-area .enrollment-content .accordion .accordion-title {
+    padding: 25px 40px 20px 20px;
+    color: #1b0238;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.entollment-area .enrollment-content .accordion .accordion-title .i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1b0238;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.entollment-area .enrollment-content .accordion .accordion-content {
+    display: none;
+    position: relative;
+    padding: 18px 20px;
+    border-top: 1px solid #f5890d;
+    color: #6b6b84;
+    font-size: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* .entollment-area .enrollment-content .accordion .accordion-content.show {
+    display: block;
+} */
+
+.enrollment-image {
+    background-image: url(../img/enrollimg/enrollment.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================= /Enrollment section end ========================= */
+
+/* ========================= New-Enrollment section start ========================= */
+
+.acc .accordion {
+    margin: 60px auto;
+    width: 600px;
+}
+
+.acc .accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 1.15),
+        -6px -6px 10px -1px rgba(240, 240, 240, 0.7);
+}
+
+.acc .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.acc label::after {
+    content: '+';
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.acc input[type="radio"] {
+    display: none;
+}
+
+.acc .accordion .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.acc .accordion input[type="radio"]:checked+label+.content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.acc .accordion input[type="radio"]:checked+label::after {
+    content: '-';
+}
+
+/* ========================= /New-Enrollment section end ========================= */
+
+/* ======================================= /GALLERY SECTION CSS END ======================================= */

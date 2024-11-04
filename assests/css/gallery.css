@@ -1,0 +1,105 @@
+/* ======================================= GALLERY SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.gallery-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/galleryimg/page-banner-2.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.gallery-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.gallery-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.gallery-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.gallery-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.gallery-banner .gallery::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Gallery section start ========================= */
+.single-gallery-box {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-gallery-box:hover::before {
+    opacity: 0.3;
+    visibility: visible;
+}
+
+.single-gallery-box::before {
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+.single-gallery-box img {
+    border-radius: 15px;
+}
+
+.single-gallery-box:hover .gallery-btn {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.single-gallery-box .gallery-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.view-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ========================= /Gallery section end ========================= */
+
+
+/* ======================================= /GALLERY SECTION CSS END ======================================= */

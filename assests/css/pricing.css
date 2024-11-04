@@ -1,0 +1,53 @@
+
+/* ======================================= PRICING SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.pricing-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/pricingimg/page-banner-3.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.pricing-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.pricing-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.pricing-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.pricing-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.pricing-banner .pricing::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ======================================= /PRICING SECTION CSS END ======================================= */
+
+
+

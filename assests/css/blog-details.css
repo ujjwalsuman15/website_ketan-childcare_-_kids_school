@@ -421,4 +421,255 @@
 
 /* ========================= /PARA section END ========================= */
 
+/* ========================= SIDE section START ========================= */
+.blog-details-sidetab {
+    position: sticky;
+    top: 110px;
+}
+
+.blog-details-sidetab .sidetab-search {
+    background: #ffffff;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.sidetab {
+    margin-bottom: 30px;
+}
+
+.blog-details-sidetab .sidetab .sidetab-title {
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid#eeeeee;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b0238;
+}
+
+.blog-details-sidetab .sidetab .sidetab-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    bottom: -1px;
+    background: #ea512e;
+}
+
+.blog-details-sidetab .sidetab-search form {
+    position: relative;
+}
+
+.blog-details-sidetab .sidetab-search form label {
+    display: block;
+    margin-bottom: 0;
+}
+
+.blog-details-sidetab .sidetab-search form .screen-text {
+    display: none;
+}
+
+.blog-details-sidetab .sidetab-search form .search-field {
+    background-color: transparent;
+    height: 50px;
+    padding: 8px 15px;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    display: block;
+    outline: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.blog-details-sidetab .sidetab-search form button {
+    border: none;
+    background-color: #eeeeee;
+    color: #f5890d;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    padding: 0;
+    transition: 0.5s;
+    top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .blog-details-sidetab .sidetab-search form button .i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 52%;
+    transform: translateY(-52%);
+} */
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb {
+    float: left;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 80px;
+    margin-right: 15px;
+    z-index: 1;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg1 {
+    background-image: url(../../assests/img/blog-detailimg/blog-1.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg2 {
+    background-image: url(../../assests/img/blog-detailimg/blog-2.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg3 {
+    background-image: url(../../assests/img/blog-detailimg/blog-3.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg4 {
+    background-image: url(../../assests/img/blog-detailimg/blog-4.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg5 {
+    background-image: url(../../assests/img/blog-detailimg/blog-5.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage.bg6 {
+    background-image: url(../../assests/img/blog-detailimg/blog-6.png);
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .thumb .fullimage {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center !important;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .info {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .info span {
+    display: block;
+    color: #f5890d;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .info .title {
+    margin-bottom: 0;
+    line-height: 1.4;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .info .title a {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.blog-details-sidetab .sidetab-ketan-posts-thumb .item .info .title a:hover {
+    color: #f5890d;
+}
+
+.blog-details-sidetab .sidetab-categories {
+    background: #ffffff;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.blog-details-sidetab .sidetab-categories ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.blog-details-sidetab .sidetab-categories ul li {
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+    color: #1b0238;
+    padding-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-details-sidetab .sidetab-categories ul li::before {
+    background: #ea512e;
+    height: 8px;
+    width: 8px;
+    content: "";
+    border-radius: 50%;
+    left: 0;
+    top: 7px;
+    position: absolute;
+}
+
+.blog-details-sidetab .sidetab-categories ul li a {
+    color: #1b0238;
+    display: inline-block;
+}
+
+.blog-details-sidetab .sidetab-categories ul li a:hover {
+    color: #f5890d;
+}
+
+.blog-details-sidetab .sidetab:last-child {
+    margin-bottom: 0;
+}
+
+.blog-details-sidetab .sidetab-tags {
+    background: #ffffff;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.blog-details-sidetab .sidetab-tags .tags a {
+    background: #f5f5f5;
+    display: inline-block;
+    color: #1b0238;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px !important;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.blog-details-sidetab .sidetab-tags .tags a:hover {
+    color: #ffffff;
+    background-color: #f5890d;
+}
+
+
+
+/* ========================= /PARA section END ========================= */
+
 /* ======================================= /BLOG-DETAILS SECTION CSS END ======================================= */
