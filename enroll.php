@@ -82,58 +82,81 @@
                         <div class="content">
                             <h3>Steps to Enrollment</h3>
                         </div>
-                        <ul class="accordion">
-                            <li class="accordion-item">
-                                <a href="javascript:void(0)" class="accordion-title">
-                                    <i class="fa-solid fa-plus i"></i>
+                        <div class="enroll-expand">
+                            <p class=" mb-0 enroll-expand-item">
+                                <a class="enroll-expand-title" data-bs-toggle="collapse" href="#collapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Explore Your Option
+                                    <i class="fa-solid fa-plus i"></i>
                                 </a>
-                                <p class="accordion-content show">
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card-body enroll-expand-content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </li>
-                            <li class="accordion-item">
-                                <a href="javascript:void(0)" class="accordion-title">
-                                    <i class="fa-solid fa-plus i"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll-expand">
+                            <p class=" mb-0 enroll-expand-item">
+                                <a class="enroll-expand-title" data-bs-toggle="collapse" href="#collapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Submit Application in Online
+                                    <i class="fa-solid fa-plus i"></i>
                                 </a>
-                                <p class="accordion-content">
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card-body enroll-expand-content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </li>
-                            <li class="accordion-item">
-                                <a href="javascript:void(0)" class="accordion-title">
-                                    <i class="fa-solid fa-plus i"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll-expand">
+                            <p class=" mb-0 enroll-expand-item">
+                                <a class="enroll-expand-title" data-bs-toggle="collapse" href="#collapseExample3"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Receive Assign Task
+                                    <i class="fa-solid fa-plus i"></i>
                                 </a>
-                                <p class="accordion-content">
+                            </p>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card-body enroll-expand-content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </li>
-                            <li class="accordion-item">
-                                <a href="javascript:void(0)" class="accordion-title">
-                                    <i class="fa-solid fa-plus i"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll-expand">
+                            <p class=" mb-0 enroll-expand-item">
+                                <a class="enroll-expand-title" data-bs-toggle="collapse" href="#collapseExample4"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Register at Your Assign Class
-                                </a>
-                                <p class="accordion-content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </li>
-                            <li class="accordion-item">
-                                <a href="javascript:void(0)" class="accordion-title">
                                     <i class="fa-solid fa-plus i"></i>
-                                    Go Online Live Class
                                 </a>
-                                <p class="accordion-content">
+                            </p>
+                            <div class="collapse" id="collapseExample4">
+                                <div class="card-body enroll-expand-content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </li>
-                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll-expand">
+                            <p class=" mb-0 enroll-expand-item">
+                                <a class="enroll-expand-title" data-bs-toggle="collapse" href="#collapseExample5"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Go Online Live Class
+                                    <i class="fa-solid fa-plus i"></i>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample5">
+                                <div class="card-body enroll-expand-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -143,68 +166,6 @@
         </div>
     </section>
     <!-- ========================= /Enrollment section end ========================= -->
-
-    <!-- =========================  New-Enrollment section start ========================= -->
-    <div class="acc">
-        <ul class="accordion">
-            <li>
-                <input type="radio" name="accordion" id="first" checked>
-                <label for="first">Explore Your Option</label>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui earum, nostrum asperiores
-                        libero, fugiat nam quasi cum repellendus ab voluptas enim rerum. Dolorem eveniet, doloremque
-                        nesciunt magni nulla ad dolorum molestiae labore ea sed in.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="second">
-                <label for="second">Submit Application in Online</label>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui earum, nostrum asperiores
-                        libero, fugiat nam quasi cum repellendus ab voluptas enim rerum. Dolorem eveniet, doloremque
-                        nesciunt magni nulla ad dolorum molestiae labore ea sed in.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="third">
-                <label for="third">Receive Assign Task</label>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui earum, nostrum asperiores
-                        libero, fugiat nam quasi cum repellendus ab voluptas enim rerum. Dolorem eveniet, doloremque
-                        nesciunt magni nulla ad dolorum molestiae labore ea sed in.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fourth">
-                <label for="fourth">Register at Your Assign Class</label>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui earum, nostrum asperiores
-                        libero, fugiat nam quasi cum repellendus ab voluptas enim rerum. Dolorem eveniet, doloremque
-                        nesciunt magni nulla ad dolorum molestiae labore ea sed in.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fifth">
-                <label for="fifth">Go Online Live Class</label>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui earum, nostrum asperiores
-                        libero, fugiat nam quasi cum repellendus ab voluptas enim rerum. Dolorem eveniet, doloremque
-                        nesciunt magni nulla ad dolorum molestiae labore ea sed in.
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <!-- =========================  /New-Enrollment section end ========================= -->
 
     <!-- =========================  Newsletter section start ========================= -->
     <div class="newsletter ptb-100">
