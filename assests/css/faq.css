@@ -1,4 +1,3 @@
-
 /* ======================================= GALLERY SECTION CSS START ======================================= */
 
 /* ========================= Banner section start ========================= */
@@ -8,34 +7,34 @@ a {
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+.faq-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/faqimg/page-banner-3.png) no-repeat fixed;
     background-size: 100%;
 }
 
-.about-banner h2 {
+.faq-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 1;
 }
 
-.about-banner ul li:first-child {
+.faq-banner ul li:first-child {
     margin-left: 0;
 }
 
-.about-banner ul li {
+.faq-banner ul li {
     display: inline-block;
     margin-left: 10px;
     color: #ea512e;
     position: relative;
 }
 
-.about-banner ul li a {
+.faq-banner ul li a {
     display: block;
     color: #ffffff;
 }
 
-.about-banner .about::before {
+.faq-banner .faq::before {
     content: "";
     position: absolute;
     top: 6px;
@@ -47,7 +46,83 @@ a {
 
 /* ========================= /Banner section end ========================= */
 
+/* ========================= FAQ section start ========================= */
+.entollment-area .faq span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.entollment-area .faq h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.faq-image {
+    background-image: url(../img/faqimg/faq.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================= /FAQ section end ========================= */
+
+/* ========================= QUESTION section start ========================= */
+.question-area .question span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.question-area .question h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.question-area .question .question-contact-form {
+    max-width: 850px;
+    margin: auto;
+}
+
+.question-area .question .question-contact-form #contactform .form-group {
+    margin-bottom: 15px;
+}
+
+.question-area .question .question-contact-form #contactform .form-group .form-control {
+    height: 60px;
+    padding: 0 0 0 15px;
+    line-height: initial;
+    color: #1b0238;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: unset !important;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.question-area .question .question-contact-form #contactform .form-group .form-control:focus {
+    border-color: #ea512e;
+}
+
+.question-area .question .question-contact-form #contactform .form-group textarea.form-control {
+    height: auto;
+    padding: 15px 0 0 15px;
+}
+
+.question-area .question .question-contact-form #contactform .send-btn {
+    margin-top: 15px;
+}
+
+/* ========================= /QUESTION section end ========================= */
+
 /* ======================================= /GALLERY SECTION CSS END ======================================= */
-
-
-

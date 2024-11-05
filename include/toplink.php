@@ -6,4 +6,4 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link rel="stylesheet" href="./assests/css/style.css">
-<!-- <meta http-equiv="refresh" content="59"> -->
+<meta http-equiv="refresh" content="59">

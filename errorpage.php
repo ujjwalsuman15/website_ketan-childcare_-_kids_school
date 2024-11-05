@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" about-banner ptb-200 mt-80">
+    <section class=" errorpage-banner ptb-200 mt-80">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -28,7 +28,7 @@
                                 Home
                             </a>
                         </li>
-                        <li class="text-orange about">
+                        <li class="text-orange errorpage">
                             Error Page
                         </li>
                     </ul>
@@ -38,10 +38,23 @@
     </section>
     <!-- ========================= /Hero section end ========================= -->
 
-  
-
-
-    
+    <!-- ========================= ERROR section start ========================= -->
+    <section class="error-area ptb-100">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="error-content">
+                        <img src="assests/img/errorpageimg/404.png" alt="error">
+                        <h3>Error 404 : page not found</h3>
+                        <p>The page you are looking for might have been removed had its name changed or is temporarily
+                            unavailable.</p>
+                        <a href="index.html" class="btn">Go to home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= /ERROR section end ========================= -->    
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

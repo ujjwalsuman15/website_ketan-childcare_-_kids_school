@@ -1,5 +1,4 @@
-
-/* ======================================= GALLERY SECTION CSS START ======================================= */
+/* ======================================= TERMS OF SERVICE SECTION CSS START ======================================= */
 
 /* ========================= Banner section start ========================= */
 a {
@@ -8,34 +7,34 @@ a {
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+.termsofservice-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/termsofserviceimg/page-banner-2.png) no-repeat fixed;
     background-size: 100%;
 }
 
-.about-banner h2 {
+.termsofservice-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 1;
 }
 
-.about-banner ul li:first-child {
+.termsofservice-banner ul li:first-child {
     margin-left: 0;
 }
 
-.about-banner ul li {
+.termsofservice-banner ul li {
     display: inline-block;
     margin-left: 10px;
     color: #ea512e;
     position: relative;
 }
 
-.about-banner ul li a {
+.termsofservice-banner ul li a {
     display: block;
     color: #ffffff;
 }
 
-.about-banner .about::before {
+.termsofservice-banner .termsofservice::before {
     content: "";
     position: absolute;
     top: 6px;
@@ -47,7 +46,51 @@ a {
 
 /* ========================= /Banner section end ========================= */
 
-/* ======================================= /GALLERY SECTION CSS END ======================================= */
+/* ========================= TermsOfService section start ========================= */
 
+.TermsOfService-area .TermsOfService-expand {
+    max-width: 950px;
+    margin: auto;
+}
 
+.TermsOfService-area .TermsOfService-expand {
+    margin-bottom: 10px;
+}
 
+.TermsOfService-area .TermsOfService-expand .TermsOfService-expand-item .TermsOfService-expand-title {
+    padding: 25px 40px 20px 20px;
+    color: #1b0238;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    border: 2px solid #f3f3f3;
+    background-color: transparent;
+}
+
+.TermsOfService-area .TermsOfService-expand .TermsOfService-expand-item .TermsOfService-expand-title .i {
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 20px;
+}
+
+.TermsOfService-area .TermsOfService-expand .TermsOfService-expand-content {
+    position: relative;
+    padding: 18px 20px;
+    color: #6b6b84;
+    font-size: 15px;
+    display: block;
+    border: 1px solid #f3f3f3;
+    border-top: 1px solid #f5890d;
+    background-color: transparent;
+}
+
+.TermsOfService-area .TermsOfService-expand .TermsOfService-expand-content:last-child {
+    margin-bottom: 0;
+}
+
+/* ========================= /TermsOfService section end ========================= */
+
+/* ======================================= /TERMS OF SERVICE SECTION CSS END ======================================= */

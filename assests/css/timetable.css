@@ -12,7 +12,89 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
     background-size: 100%;
 }
+/* ======================================= TIME-TABLE SECTION CSS START ======================================= */
 
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.timetable-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/timetableimg/page-banner-2.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.timetable-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.timetable-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.timetable-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.timetable-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.timetable-banner .timetable::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Routine section start ========================= */
+.routine-area .routine.table-responsive {
+    overflow-x: auto;
+}
+
+.routine-area .routine table thead th {
+    border: 1px solid #f0f0f0;
+    color: #1b0238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 25px;
+}
+
+.routine-area .routine table tbody tr th {
+    border: 1px solid #f0f0f0;
+    font-weight: 600;
+    color: #ea512e;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 18px;
+}
+
+.routine-area .routine table tbody tr th span {
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: #6b6b84;
+}
+
+/* ========================= /Routine section end ========================= */
+
+/* ======================================= /TIME-TABLE SECTION CSS END ======================================= */
 .about-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;

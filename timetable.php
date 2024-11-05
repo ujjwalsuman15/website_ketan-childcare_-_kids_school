@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" about-banner ptb-200 mt-80">
+    <section class=" timetable-banner ptb-200 mt-80">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -28,8 +28,8 @@
                                 Home
                             </a>
                         </li>
-                        <li class="text-orange about">
-                        Timetable
+                        <li class="text-orange timetable">
+                            Timetable
                         </li>
                     </ul>
                 </div>
@@ -38,7 +38,204 @@
     </section>
     <!-- ========================= /Hero section end ========================= -->
 
-  
+    <!-- ========================= Routine section start ========================= -->
+    <section class="routine-area ptb-100">
+        <div class="container">
+            <div class="routine table-responsive">
+                <table class="table mb-0 text-center">
+                    <thead>
+                        <tr>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Sport Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Active Learning
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Read & Write
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Swimming Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Art Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Dance Class
+                                <span>6:00 AM - 8:00 AM</span>
+                            </th>
+                            <th>
+                                Off
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= /Routine section end ========================= -->
+
 
 
     

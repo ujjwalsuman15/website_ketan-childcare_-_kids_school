@@ -1,5 +1,4 @@
-
-/* ======================================= GALLERY SECTION CSS START ======================================= */
+/* ======================================= LOGIN SECTION CSS START ======================================= */
 
 /* ========================= Banner section start ========================= */
 a {
@@ -8,34 +7,34 @@ a {
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+.login-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/loginimg/page-banner-4.png) no-repeat fixed;
     background-size: 100%;
 }
 
-.about-banner h2 {
+.login-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 1;
 }
 
-.about-banner ul li:first-child {
+.login-banner ul li:first-child {
     margin-left: 0;
 }
 
-.about-banner ul li {
+.login-banner ul li {
     display: inline-block;
     margin-left: 10px;
     color: #ea512e;
     position: relative;
 }
 
-.about-banner ul li a {
+.login-banner ul li a {
     display: block;
     color: #ffffff;
 }
 
-.about-banner .about::before {
+.login-banner .login::before {
     content: "";
     position: absolute;
     top: 6px;
@@ -47,7 +46,123 @@ a {
 
 /* ========================= /Banner section end ========================= */
 
-/* ======================================= /GALLERY SECTION CSS END ======================================= */
+/* ========================= LOGIN section start ========================= */
+.login-area .login-form {
+    padding: 40px 45px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+    max-width: 650px;
+    margin: auto;
+}
 
+.login-area .login-form h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+}
 
+.login-area .login-form form .form-group {
+    margin-bottom: 25px;
+}
 
+.login-area .login-form form .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #6b6b84;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.login-area .login-form form .form-group .form-control {
+    height: 60px;
+    padding: 0 0 0 15px;
+    line-height: initial;
+    color: #1b0238;
+    background-color: transparent !important;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: unset !important;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-area .login-form form .form-group .form-control:focus {
+    border: 1px solid #ea512e;
+}
+
+.login-area .login-form form .form-check {
+    font-weight: 500;
+    font-size: 15px;
+    color: #6b6b84;
+}
+
+.login-area .login-form form .form-check-input {
+    margin-top: 2px;
+}
+
+.login-area .login-form form .lost-your-password {
+    float: right;
+}
+
+.login-area .login-form form .lost-your-password a {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    color: #6b6b84;
+}
+
+.login-area .login-form form .lost-your-password a::before {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    transition: 0.5s;
+    background-color: #eeeeee;
+}
+
+.login-area .login-form form .lost-your-password a::after {
+    width: 0;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+    bottom: 0;
+    content: "";
+    background-color: #f5890d;
+}
+
+.login-area .login-form form .lost-your-password a:hover::before {
+    width: 0;
+}
+
+.login-area .login-form form .lost-your-password a:hover::after {
+    width: 100%;
+}
+
+.login-area .login-form .important-text {
+    margin-top: 15px;
+}
+
+.login-area .login-form .important-text p {
+    font-size: 15px;
+    color: #656565;
+}
+
+.login-area .login-form .important-text p a {
+    color: #656565;
+    font-weight: 600;
+}
+
+.login-area .login-form .important-text p a:hover {
+    color: #ea512e;
+}
+
+/* ========================= /LOGIN section end ========================= */
+
+/* ======================================= /LOGIN SECTION CSS END ======================================= */
