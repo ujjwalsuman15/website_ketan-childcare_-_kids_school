@@ -16,7 +16,7 @@
   <!-- ========================= /Header section end ========================= -->
 
   <!-- ========================= Hero section start ========================= -->
-  <section class="contact-banner ptb-200 mt-80">
+  <section class="contact-banner ptb-200">
     <div class="container">
       <div class="row text-center">
         <div class="col-12">

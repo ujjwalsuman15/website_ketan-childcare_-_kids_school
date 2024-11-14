@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" gallery-banner ptb-200 mt-80">
+    <section class=" gallery-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -131,8 +131,6 @@
         </div>
     </div>
     <!-- ========================= /Newsletter section end ========================= -->
-
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

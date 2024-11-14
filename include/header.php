@@ -1,6 +1,6 @@
-<!-- ========================= Header section start ========================= -->
-<header>
-        <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-white">
+ <!-- ========================= Header section start ========================= -->
+ <header>
+        <nav class="navbar navbar-expand-xl navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="index.php" id="hometop">
                     <img src="./assests/img/logo.png" alt="logo">
@@ -63,13 +63,12 @@
                                         FAQ
                                     </a>
                                 </li>
-                                <li>
-                                    <a class="nav-link dropdown-toggle fw-bold text-black ms-2" href="javascript:void()"
-                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                <li id="navbarDropdown2">
+                                    <a class="nav-link dropdown-toggle fw-bold text-black" href="javascript:void()"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Account
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu" id="acc-log-reg" aria-labelledby="navbarDropdown">
                                         <li>
                                             <a class="dropdown-item fw-bold" href="login.php">
                                                 Login

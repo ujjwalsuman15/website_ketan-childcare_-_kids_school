@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" teacher-details-banner ptb-200 mt-80">
+    <section class=" teacher-details-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -38,7 +38,7 @@
     </section>
     <!-- ========================= /Hero section end ========================= -->
 
-    <!-- teachers-details-area section start -->
+    <!-- ========================= teachers-details-area section start ========================= -->
     <section class="teachers-details-area ptb-100">
         <div class="container">
             <div class="row">
@@ -47,7 +47,7 @@
                         <img src="assests/img/teacher-detailimg/teacher-details.jpg" alt="">
                     </div>
                     <div class="teacher-para">
-                        <h2 class="fw-bold my-4">Personal Information and Biography</h2>
+                        <h2 class="fw-bold my-md-4  my-2 text-center">Personal Information and Biography</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eaque, earum nulla
                             repellat dolores fugiat nemo sunt voluptatem officia doloribus voluptatum. Dolorum ullam
@@ -58,7 +58,7 @@
                             perspiciatis autem nisi expedita! Facilis velit quo praesentium. Eaque repellendus non harum
                             incidunt aut, unde debitis sint earum labore, quod quos id architecto consectetur.
                         </p>
-                        <h2 class="fw-bold my-4">Teacher Skills</h2>
+                        <h2 class="fw-bold my-md-4 my-2  text-center">Teacher Skills</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores harum quis iusto nostrum,
                             autem unde quia, obcaecati distinctio repellendus alias veniam deserunt aliquid. Recusandae
                             ipsa quod earum, eaque magnam blanditiis doloribus accusamus? Dolores at mollitia aliquam.
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 my-md-0 my-5">
                     <div class="teacher-details-information">
                         <h3>Profile Details</h3>
                         <ul>
@@ -179,21 +179,21 @@
                             </li>
                             <li>
                                 <span>Designation:</span>
-                               <a href="javascript:void()">
-                                <i class="fa-brands fa-google-plus-g"></i>
-                               </a>
-                               <a href="javascript:void()">
-                                <i class="fa-brands fa-facebook-f"></i>
-                               </a>
-                               <a href="javascript:void()">
-                                <i class="fa-brands fa-twitter"></i>
-                               </a>
-                               <a href="javascript:void()">
-                                <i class="fa-brands fa-linkedin"></i>
-                               </a>
-                               <a href="javascript:void()">
-                                <i class="fa-brands fa-instagram"></i>
-                               </a>
+                                <a href="javascript:void()">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="javascript:void()">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void()">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="javascript:void()">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="javascript:void()">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -201,9 +201,7 @@
             </div>
         </div>
     </section>
-    <!-- /teachers-details-area section end -->
-
-
+    <!-- ========================= /teachers-details-area section end ========================= -->
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

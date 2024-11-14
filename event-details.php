@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" event-details-banner ptb-200 mt-80">
+    <section class=" event-details-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 my-md-0 my-5">
                     <div class="event-details-information">
                         <h3>Profile Details</h3>
                         <ul>
@@ -113,8 +113,6 @@
         </div>
     </section>
     <!-- /event-details-area section end -->
-
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

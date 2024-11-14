@@ -16,31 +16,31 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <div class="banner position-relative mt-8" data-aos="zoom-in-up">
+    <div class="banner position-relative" data-aos="zoom-in-up">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-1 position-absolute top-4 shape-1">
-                    <img src="./assests/img/banner-shape-1.png" alt="owl1" class="img-fluid d-none d-xl-block">
+                    <img src="./assests/img/banner-shape-1.png" alt="owl1" class="img-fluid d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute shape-2">
-                    <img src="./assests/img/banner-shape-2.png" alt="bee" class="img-fluid d-none d-xl-block">
+                    <img src="./assests/img/banner-shape-2.png" alt="bee" class="img-fluid d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute bottom-4 shape-3">
-                    <img src="./assests/img/banner-shape-3.png" alt="bee" class="img-fluid d-none d-xl-block">
+                    <img src="./assests/img/banner-shape-3.png" alt="bee" class="img-fluid d-xl-block">
                 </div>
                 <div class="col-lg-1 position-absolute shape-4">
-                    <img src="./assests/img/banner-shape-4.png" alt="bee" class="img-fluid d-none d-xl-block">
+                    <img src="./assests/img/banner-shape-4.png" alt="bee" class="img-fluid d-xl-block">
                 </div>
-                <div class="col-lg-12 position-absolute start-0 bottom-0">
-                    <img src="./assests/img/banner-bg-shape-1.png" alt="cloud" class="img-fluid d-none d-xl-block"
+                <div class="col-lg-12 position-absolute start-0 bottom-0 cloud">
+                    <img src="./assests/img/banner-bg-shape-1.png" alt="cloud" class="img-fluid d-xl-block"
                         style="margin-left: -10px;">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <p class="text-orange fw-bold mt-200">
+                <div class="col-lg-6 banner-play" data-aos="fade-right">
+                    <p class="text-orange fw-bold">
                         Play, Learn and Grow
                     </p>
                     <h1 class="mt-20 fs-60 mb-20">
@@ -52,11 +52,11 @@
                         maecenas accumsan lacus vel facilisis.
                     </p>
                     <div class="mt-4">
-                        <a href="javascript:void()" class="btn me-3">Learn More</a>
-                        <a href="javascript:void()" class="btn-2">Find Out More</a>
+                        <a href="javascript:void()" class="btn banner-btn-learn me-3">Learn More</a>
+                        <a href="javascript:void()" class="btn-2 banner-btn-learn">Find Out More</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 cute-girl">
                     <div class="mt-5">
                         <img src="./assests/img/education-girl.png" alt="education-girl"
                             class="img-fluid position-lg-absolute bottom-10 end-0" style="height: 77%; width: 800%;">
@@ -71,17 +71,18 @@
     <section class="whoweare ptb-100 position-relative">
         <div class="container-fluid">
             <div class="col-lg-1 position-absolute shape-5">
-                <img src="./assests/img/who-we-are-shape.png" alt="who-we-are-shape"
-                    class="img-fluid d-none d-xl-block">
+                <img src="./assests/img/who-we-are-shape.png" alt="who-we-are-shape" class="img-fluid d-xl-block">
             </div>
         </div>
         <div class="container">
             <div class="row pt-5">
-                <div class="col-md-6 boy-image" data-aos="fade-right">
-                    <img src="./assests/img/who-we-are.jpg" alt="who-we-are-image" class="img-fluid ">
+                <div class="col-lg-6 boy-image" data-aos="fade-right">
+                    <div class="boy-image">
+                        <img src="./assests/img/who-we-are.jpg" alt="who-we-are-image" class="img-fluid ">
+                    </div>
                 </div>
-                <div class="col-md-6" data-aos="fade-left">
-                    <span>
+                <div class="col-lg-6 content" data-aos="fade-left">
+                    <span class="whoweare-span">
                         Who We Are
                     </span>
                     <h3>
@@ -96,25 +97,25 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.
                     </p>
-                    <ul class="list-unstyled row">
-                        <li class="col-6 fw-bold fs-6">
-                            <span>1</span>
+                    <ul class="who-we-are-list">
+                        <li>
+                            <span class="who-we-are-spanno">1</span>
                             Homelike Environment
                         </li>
-                        <li class="col-6 fw-bold fs-6">
-                            <span>2</span>
+                        <li>
+                            <span class="who-we-are-spanno">2</span>
                             Quality Educators
                         </li>
-                        <li class="col-6 fw-bold fs-6">
-                            <span>3</span>
+                        <li>
+                            <span class="who-we-are-spanno">3</span>
                             Safety and Security
                         </li>
-                        <li class="col-6 fw-bold fs-6">
-                            <span>4</span>
+                        <li>
+                            <span class="who-we-are-spanno">4</span>
                             Play to Learn
                         </li>
                     </ul>
-                    <div>
+                    <div class="who-we-are-btn">
                         <a href="javascript:void()" class="btn">
                             Read More
                         </a>
@@ -141,7 +142,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <div class="card overflow-hidden colorimage">
+                    <div class="card overflow-hidden colorimage mb-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/class-1.jpg" class="card-img-top" alt="Color_matching">
@@ -192,7 +193,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <div class="card overflow-hidden colorimage">
+                    <div class="card overflow-hidden colorimage mb-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/class-2.jpg" class="card-img-top" alt="Learning_desciplines">
@@ -242,9 +243,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
-                    <div class="card overflow-hidden colorimage">
+                <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card overflow-hidden colorimage md-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/class-3.jpg" class="card-img-top" alt="Drawing">
@@ -310,12 +311,12 @@
     <!-- ========================= Core Value section start ========================= -->
     <section class="core-value ptb-100 position-relative">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row align-items-center">
+                <div class="col-lg-6 value-image" data-aos="fade-up" data-aos-duration="3000">
                     <img src="./assests/img/value-1.png" alt="value-1" class="img-fluid">
                 </div>
-                <div class="col-lg-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                    <span>Our Core Values</span>
+                <div class="col-lg-6 content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <span class="span">Our Core Values</span>
                     <h3>
                         We are Refunding Early Childcare Education
                     </h3>
@@ -351,6 +352,46 @@
                     </div>
                 </div>
             </div>
+            <div class="core-value-bootom-content">
+                <div class="core-value-top-data">
+                    <span class="span">Our Core Values</span>
+                    <h3>
+                        We are Refunding Early Childcare Education
+                    </h3>
+                </div>
+                <div class="core-value-content">
+                    <div class="core-value-inner-content">
+                        <div class="number">
+                            <span class="span-number bg-1 bg-d3f5fe">01</span>
+                        </div>
+                        <h4>Active Learning</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="core-value-inner-content">
+                        <div class="number">
+                            <span class="span-number bg-2 bg-fce0ad">02</span>
+                        </div>
+                        <h4>Safe Environment</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="core-value-inner-content">
+                        <div class="number">
+                            <span class="span-number bg-3 bg-fbc9d5">03</span>
+                        </div>
+                        <h4>Fully Equipment</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="value-shape">
             <div class="value-shape-1 m-4">
@@ -367,12 +408,12 @@
     <!-- ========================= /Core Value section end ========================= -->
 
     <!-- ========================= Our Teacher section start ========================= -->
-    <section class="ourteacher pt-100 pb-70 ">
+    <section class="ourteacher pt-100 pb-50 ">
         <div class="container-fluid">
             <span class="text-center d-block">Our Core Teacher</span>
             <h3 class="text-center">Meet Our Teacher</h3>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-1.jpg" alt="teacher-1" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -405,7 +446,7 @@
                         <span>Music Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-2.jpg" alt="teacher-2" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -438,7 +479,7 @@
                         <span>Art Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-3.jpg" alt="teacher-3" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -471,7 +512,7 @@
                         <span>Math Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-4.jpg" alt="teacher-4" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -816,8 +857,9 @@
                 <h3 class="text-center">Latest News</h3>
             </div>
             <div class="row">
-                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="card overflow-hidden border-0 colorimage">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card overflow-hidden border-0 colorimage mb-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/blog-1.jpg" class="card-img-top" alt="latest-news-1">
@@ -855,8 +897,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="card overflow-hidden border-0 colorimage">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card overflow-hidden border-0 colorimage mb-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/blog-2.jpg" class="card-img-top" alt="latest-news-2">
@@ -894,8 +937,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="card overflow-hidden border-0 colorimage">
+                <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card overflow-hidden border-0 colorimage mb-4">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
                                 <img src="./assests/img/blog-3.jpg" class="card-img-top" alt="latest-news-3">

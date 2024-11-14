@@ -11,41 +11,45 @@
 
 <body>
     <div id="homeup"></div>
-
-    <!-- ========================= Header section start ========================= -->
-    <?php include 'include/header.php'?>
-    <!-- ========================= /Header section end ========================= -->
-
-    <!-- ========================= Hero section start ========================= -->
-    <section class=" about-banner ptb-200 mt-80">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h2 class=" text-white fw-bold ">Comming Soon ....</h2>
-                    <ul class="text-center px-0 mb-0 list-unstyled">
-                        <li>
-                            <a href="./index.php" class="home fw-bold text-white">
-                                Home
-                            </a>
-                        </li>
-                        <li class="text-orange about">
-                            Comming Soon...
-                        </li>
-                    </ul>
+    
+    <!-- ========================= Launching section start ========================= -->
+    <section class="coming-soon-area ptb-50">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="coming-soon-content">
+                    <h2>We Are Launching Soon</h2>
+                    <div id="timer" class="flex-wrap d-flex justify-content-center">
+                        <div class="align-items-center flex-column d-flex justify-content-center">
+                            2159
+                            <span>Days</span>
+                        </div>
+                        <div class="align-items-center flex-column d-flex justify-content-center">
+                            22
+                            <span>Hours</span>
+                        </div>
+                        <div class="align-items-center flex-column d-flex justify-content-center">
+                            59
+                            <span>Minutes</span>
+                        </div>
+                        <div class="align-items-center flex-column d-flex justify-content-center">
+                            45
+                            <span>Seconds</span>
+                        </div>
+                    </div>
+                    <form method="post" class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" name="EMAIL" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn launch-subs">Subscribe</button>
+                        <p>
+                            If you would like to be notified when your app is live Please subscribe our mailing list
+                        </p>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ========================= /Hero section end ========================= -->
-
-  
-
-
-    
-
-    <!-- ========================= Footer section start ========================= -->
-    <?php include 'include/footer.php'?>
-    <!-- ========================= /Footer Section end ========================= -->
+    <!-- ========================= /Launching section end ========================= -->
 
     <!-- ========================= Fixed section start ========================= -->
     <?php include 'include/fixed.php'?>

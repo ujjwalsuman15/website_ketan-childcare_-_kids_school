@@ -1,53 +1,101 @@
+/* ======================================= COMMINGSOON SECTION CSS START ======================================= */
 
-/* ======================================= GALLERY SECTION CSS START ======================================= */
-
-/* ========================= Banner section start ========================= */
+/* ========================= Launching section start ========================= */
 a {
     text-decoration: none;
     transition: 0.5s;
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
-    background-size: 100%;
+.coming-soon-content {
+    max-width: 1050px;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 60px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    margin: auto;
 }
 
-.about-banner h2 {
-    margin-bottom: 20px;
+.coming-soon-content h2 {
     font-size: 45px;
-    line-height: 1;
+    margin-bottom: 0;
 }
 
-.about-banner ul li:first-child {
-    margin-left: 0;
+.coming-soon-area .coming-soon-content #timer {
+    margin-top: 40px;
 }
 
-.about-banner ul li {
-    display: inline-block;
+.coming-soon-area .coming-soon-content #timer div {
+    background: #1b0238;
+    color: #ffffff;
+    width: 190px;
+    height: 185px;
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: bold;
     margin-left: 10px;
-    color: #ea512e;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.coming-soon-area {
+    height: 100vh;
+}
+
+.d-table {
+    width: 100%;
+    height: 100%;
+}
+
+.d-table-cell {
+    vertical-align: middle;
+}
+
+.coming-soon-area .coming-soon-content .newsletter-form {
+    position: relative;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.coming-soon-area .coming-soon-content .newsletter-form .form-group {
+    margin-bottom: 25px;
     position: relative;
 }
 
-.about-banner ul li a {
+.coming-soon-area .coming-soon-content .newsletter-form .form-group .form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    color: #1b0238;
+    height: 45px;
+    padding-bottom: 20px;
     display: block;
-    color: #ffffff;
+    width: 100%;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.about-banner .about::before {
-    content: "";
-    position: absolute;
-    top: 6px;
-    left: -6px;
-    width: 1px;
-    height: 13px;
-    background-color: #ea512e;
+.coming-soon-area .coming-soon-content .newsletter-form .form-group .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ea512e;
 }
 
-/* ========================= /Banner section end ========================= */
+.coming-soon-area .coming-soon-content .newsletter-form .launch-subs {
+    border-radius: 50px;
+    padding: 15px 45px;
+}
 
-/* ======================================= /GALLERY SECTION CSS END ======================================= */
+.coming-soon-area .coming-soon-content .newsletter-form p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 15px;
+}
 
+/* ========================= /Launching section end ========================= */
 
-
+/* ======================================= /COMMINGSOON SECTION CSS END ======================================= */

@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" class-details-banner ptb-200 mt-80">
+    <section class=" class-details-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 my-md-0 my-5">
                     <div class="class-details-sidetab">
                         <div class="class-details-information">
                             <h3>Information</h3>
@@ -490,8 +490,6 @@
         </div>
     </section>
     <!-- ========================= /popular section end ========================= -->
-
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

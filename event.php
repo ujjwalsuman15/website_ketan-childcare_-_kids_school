@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" event-banner ptb-200 mt-80">
+    <section class=" event-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -45,12 +45,12 @@
                 <div class="col-lg-6">
                     <div class="event-item">
                         <div class="row align-items-center">
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-img">
                                     <img src="./assests/img/eventimg/event-5.png" alt="event-5" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 text-center">
                                 <div class="event-content">
                                     <h3>
                                         <a href="javascript:void()">Maths Olympiad</a>
@@ -61,7 +61,7 @@
                                     <span>3-8 Months 8:00 AM - 11:00 PM</span>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-date">
                                     <h4>20</h4>
                                     <span>October</span>
@@ -73,12 +73,12 @@
                 <div class="col-lg-6">
                     <div class="event-item">
                         <div class="row align-items-center">
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-img">
                                     <img src="./assests/img/eventimg/event-6.png" alt="event-6" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 text-center">
                                 <div class="event-content">
                                     <h3>
                                         <a href="javascript:void()">Art Competition</a>
@@ -89,7 +89,7 @@
                                     <span>3-8 Months 8:00 AM - 11:00 PM</span>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-date">
                                     <h4>12</h4>
                                     <span>December</span>
@@ -101,12 +101,12 @@
                 <div class="col-lg-6">
                     <div class="event-item">
                         <div class="row align-items-center">
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-img">
                                     <img src="./assests/img/eventimg/event-7.png" alt="event-7" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 text-center">
                                 <div class="event-content">
                                     <h3>
                                         <a href="javascript:void()">English Novels</a>
@@ -117,7 +117,7 @@
                                     <span>3-8 Months 8:00 AM - 11:00 PM</span>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-date">
                                     <h4>29</h4>
                                     <span>August</span>
@@ -129,12 +129,12 @@
                 <div class="col-lg-6">
                     <div class="event-item">
                         <div class="row align-items-center">
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-img">
                                     <img src="./assests/img/eventimg/event-8.png" alt="event-8" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 text-center">
                                 <div class="event-content">
                                     <h3>
                                         <a href="javascript:void()">Science Competition</a>
@@ -145,7 +145,7 @@
                                     <span>3-8 Months 8:00 AM - 11:00 PM</span>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 text-center">
                                 <div class="event-date">
                                     <h4>30</h4>
                                     <span>November</span>
@@ -165,7 +165,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="newsletter-content">
-                        <h2 class="fw-bold text-black mb-0">Do You Want To Know Get Update What’s Upcoming</h2>
+                        <h2 class="fw-bold text-black mb-0">Do You Want To Know Get Update What's Upcoming</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">

@@ -1,23 +1,1486 @@
 /* ======================== RESPONSIVE DIMENSIONS START ========================= */
+/* ========================================== min width 1200px start ========================================== */
+@media screen and (min-width: 1200px) {
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+    /* nav section start */
+    /* /nav section end */
+
+    /* banner section start */
+    /* /banner section end */
+
+    /* Who We Are section start */
+    .whoweare.ptb-100 {
+        padding: 0px 0px 100px 0px;
+    }
+
+    /* /Who We Are section end */
+    /* core-value section start */
+
+    .core-value .core-value-bootom-content {
+        display: none;
+    }
+
+    /* /core-value section end */
+
+    /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
+}
+
+/* =========================================== min width 1200px end =========================================== */
+
+/* =========================================== max width 1200px start =========================================== */
+
 @media screen and (max-width: 1200px) {
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+
+    /* nav section start */
+    #navbarDropdown2 {
+        position: relative;
+        padding: 0px 20px;
+    }
+
+    /* /nav section end */
+    /* banner section start */
+    .banner .container-fluid .shape-1,
+    .banner .container-fluid .shape-2,
+    .banner .container-fluid .shape-3,
+    .banner .container-fluid .shape-4 {
+        width: 120px;
+    }
+
+    .banner .container-fluid .shape-4 {
+        bottom: 20%;
+        left: 50%;
+    }
+
+    @keyframes move3 {
+        0% {}
+
+        100% {
+            bottom: 16%;
+        }
+    }
+
+    .banner .container .banner-play {
+        margin-top: 130px;
+    }
+
+    /* /banner section end */
+
+    /* Who We Are section start */
+    .whoweare .container-fluid .shape-5 {
+        width: 120px;
+        top: 10%;
+    }
+
+    .whoweare.ptb-100 {
+        padding: 0px 0px 100px 0px;
+    }
+
+    /* /Who We Are section end */
+
+    /* core-value section start */
+    .core-value .core-value-bootom-content {
+        display: none;
+    }
+
+    .core-value.ptb-100.position-relative .value-shape .value-shape-2 {
+        bottom: 0;
+    }
+
+    .core-value.ptb-100.position-relative .value-shape .value-shape-3 {
+        display: none;
+    }
+
+    /* /core-value section end */
+
+    /* testimonial section start */
+    .testimonial.ptb-100.position-relative .container .nav-button.justify-content-between.d-flex.buttons,
+    .testimonial.pt-100.pb-50.position-relative .nav-button.justify-content-between.d-flex.buttons {
+        display: none !important;
+    }
+
+    /* /testimonial section end */
+    /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* who-we-are section start */
+
+    /* /who-we-are section end */
+    /* courses section start */
+
+    .courses.pt-100.pb-70 {
+        overflow: hidden;
+    }
+
+    /* /courses section end */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
+
     .mt-200 {
         margin-top: 50px;
     }
+
+    /* ======================== How To Apply RESPONSIVE SECTION START ========================= */
+
+    .apply-area .apply-form .content h3 {
+        background: linear-gradient(90deg, #ff9100, #00ff0d) !important;
+        background-size: 200% !important;
+        background-clip: text !important;
+        color: transparent !important;
+        animation: text-new-animation 20s infinite linear !important;
+    }
+
+    /* ======================== /How To Apply RESPONSIVE SECTION END ========================= */
+
+
 }
 
+/* =========================================== max width 1200px end =========================================== */
+
+/* =========================================== max width 992px start =========================================== */
+
 @media screen and (max-width: 992px) {
+
+    /* universal section start */
     .mt-200 {
         margin-top: 10px;
+    }
+
+    .pt-100 {
+        padding-top: 70px !important;
+    }
+
+    .pb-70,
+    .pb-50 {
+        padding-bottom: 50px !important;
+    }
+
+    .ptb-100 {
+        padding: 70px 0px 70px 0px !important;
+    }
+
+    .right-buynow img {
+        display: none;
+    }
+
+    .right-buynow a.buy-now {
+        font-size: 10px;
+    }
+
+    /* /universal section end */
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+
+    /* banner section start */
+
+    .banner .container-fluid .shape-1,
+    .banner .container-fluid .shape-3 {
+        width: 90px;
+    }
+
+    .banner .container-fluid .shape-2,
+    .banner .container-fluid .shape-4,
+    .banner .container-fluid .shape-5 {
+        width: 130px;
+    }
+
+    .banner .container-fluid .shape-4 {
+        bottom: 10%;
+        left: 50%;
+    }
+
+    @keyframes move3 {
+        0% {}
+
+        100% {
+            bottom: 6%;
+        }
+    }
+
+    .banner .container .banner-play {
+        margin-top: 110px;
+    }
+
+    .banner .container-fluid .cloud {
+        display: none;
+    }
+
+    .banner.position-relative {
+        background-image: unset;
+        height: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #e7ddf4;
+    }
+
+    .banner .container-fluid .shape-3,
+    .banner .container-fluid .shape-4 {
+        display: none;
+    }
+
+    /* /banner section end */
+
+    /* Who We Are section start */
+    .whoweare .container-fluid .shape-5 {
+        display: none;
+    }
+
+    /* /Who We Are section end */
+
+    /* Popular section start */
+    .popular.pt-100 {
+        padding-top: 70px;
+    }
+
+    .popular.pb-70 {
+        padding-bottom: 40px;
+    }
+
+    /* /Popular section end */
+
+    /* core-value section start */
+    .core-value.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .core-value .core-value-bootom-content {
+        display: none;
+    }
+
+    /* /core-value section end */
+
+    /* footer section start */
+
+    footer .footer-content p+ul li {
+        margin-right: 0;
+    }
+
+    /* /footer section end */
+    /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* who-we-are section start */
+
+    .who-we-are.ptb-100.bg-white {
+        padding: 70px 0px 70px 0px;
+    }
+
+    /* /who-we-are  section end */
+    /* expert-teacher  section start */
+    .expert-teacher.pt-100.pb-70 {
+        padding: 70px 0px 50px 0px;
+    }
+
+    /* /expert-teacher  section end */
+    /* courses  section start */
+    .courses.pt-100.pb-70 {
+        padding: 70px 0px 50px 0px;
+    }
+
+    .courses .courses-image .courses-image-shape {
+        display: none;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+    .testimonial.ptb-100.position-relative.bg-light-red-orange {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row.mb-5 {
+        margin-bottom: 0 !important;
+    }
+
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row h3 {
+        font-size: 35px;
+    }
+
+    .testimonial .feedback-item .feedback-content .fst-italic {
+        font-size: 14px !important;
+        text-align: center;
+    }
+
+    .testimonial .feedback-item .feedback-info {
+        text-align: center;
+    }
+
+    .testimonial .feedback-item .feedback-image {
+        margin-bottom: 30px;
+    }
+
+    /* /testimonial  section end */
+    /* pricing section start */
+    .pricing.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .pricing.ptb-100 span {
+        font-size: 18px;
+    }
+
+    .pricing.ptb-100 h3 {
+        font-size: 35px;
+    }
+
+    /* /pricing  section end */
+    /* newsletter section start */
+    .newsletter.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .newsletter.ptb-100 .newsletter-shape {
+        display: none;
+    }
+
+    .newsletter.ptb-100 .newsletter-content {
+        margin-bottom: 20px;
+    }
+
+    /* /newsletter  section end */
+    /* partner section start */
+
+    .partner.ptb-100.bg-partner {
+        padding: 70px 0px 70px 0px !important;
+    }
+
+    .partner.ptb-100.bg-partner marquee img {
+        width: 20%;
+    }
+
+    /* /partner  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+    /* ======================== How To Apply RESPONSIVE SECTION START ========================= */
+    /* apply-area section start */
+
+    .apply-area .apply-form .content h3 {
+        text-align: center;
+        font-size: 25px !important;
+        background: linear-gradient(90deg, #0400ff, #ff0000) !important;
+        background-size: 200% !important;
+        background-clip: text !important;
+        color: transparent !important;
+        animation: text-new-animation 20s infinite linear !important;
+    }
+
+    .apply-area .apply-form .col-lg-6 {
+        margin-bottom: 30px !important;
+    }
+
+    /* /apply-area  section end */
+    /* ======================== /How To Apply RESPONSIVE SECTION END ========================= */
+
+    /* ======================== Programs RESPONSIVE SECTION START ========================= */
+    /* testimonial section start */
+
+    .testimonial.pt-100.pb-50.position-relative .row.py-5.mySwiper {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    /* /testimonial  section end */
+    /* ======================== /Programs RESPONSIVE SECTION END ========================= */
+
+    /* ======================== Comming-soon RESPONSIVE SECTION START ========================= */
+    .coming-soon-area .coming-soon-content {
+        padding: 30px 25px;
+    }
+
+    .coming-soon-area .coming-soon-content h2 {
+        font-size: 25px;
+    }
+
+    .coming-soon-area .coming-soon-content #timer {
+        margin-top: 30px;
+    }
+
+    .coming-soon-area .coming-soon-content #timer div {
+        width: 100px !important;
+        height: 105px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        font-size: 20px !important;
+        margin-top: 10px !important;
+    }
+
+    /* ======================== /Comming-soon RESPONSIVE SECTION END ========================= */
+
+}
+
+/* ============================================ max width 992px end ============================================ */
+
+/* =========================================== max width 768px start =========================================== */
+
+@media screen and (max-width: 768px) {
+
+    /* universal section start */
+    .pt-100 {
+        padding-top: 50px !important;
+    }
+
+    .pb-70,
+    .pb-50 {
+        padding-bottom: 20px !important;
+    }
+
+    .ptb-100 {
+        padding: 50px 0px 50px 0px !important;
     }
 
     .right-buynow {
         display: none;
     }
+
+    /* /universal section end */
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+    /* banner section start */
+
+    .banner .container-fluid .shape-1,
+    .banner .container-fluid .shape-2,
+    .banner .container-fluid .shape-5 {
+        display: none;
+    }
+
+
+
+    .banner .container .banner-play {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .banner .container .banner-play h1 {
+        font-size: 45px;
+    }
+
+
+
+    /* /banner section end */
+
+    /* Who We Are section start */
+
+
+    .whoweare.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .whoweare.ptb-100 .container .row.pt-5 {
+        padding: 0 !important;
+    }
+
+    .whoweare .container .col-lg-6 .boy-image {
+        margin-bottom: 30px;
+    }
+
+    .whoweare .col-lg-6.content span.whoweare-span {
+        text-align: center;
+        display: block;
+    }
+
+    .whoweare .col-lg-6.content h3 {
+        text-align: center;
+    }
+
+    /* /Who We Are section end */
+
+    /* Popular section start */
+    .popular.pt-100 {
+        padding-top: 50px;
+    }
+
+    .popular.pb-70 {
+        padding-bottom: 20px;
+    }
+
+    .card-body .popular-content {
+        text-align: center;
+    }
+
+    .popular .container .row .col-12 span {
+        font-size: 18px;
+    }
+
+    .popular .container .row .col-12 h3 {
+        font-size: 28px;
+    }
+
+    .popular .class-shape {
+        display: none;
+    }
+
+    /* /Popular section end */
+
+    /* core-value section start */
+    .core-value.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .core-value .core-value-bootom-content {
+        display: none;
+    }
+
+    .core-value.ptb-100.position-relative .value-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .core-value .core-value-bootom-content .core-value-top-data {
+        text-align: center;
+    }
+
+    .core-value .core-value-bootom-content .core-value-top-data span.span {
+        font-size: 18px !important;
+    }
+
+    .core-value .core-value-bootom-content .core-value-top-data h3 {
+        font-size: 25px !important;
+    }
+
+    .core-value .core-value-bootom-content .core-value-content .core-value-inner-content h4 {
+        font-size: 20px !important;
+    }
+
+    .core-value .core-value-bootom-content .core-value-content .core-value-inner-content p {
+        font-size: 14px;
+    }
+
+    .core-value.ptb-100 .core-value-content .core-value-inner-content {
+        padding-left: 75px !important;
+    }
+
+    .core-value.ptb-100 .core-value-content .core-value-inner-content .number span {
+        top: 15% !important;
+        height: 50px !important;
+        width: 50px !important;
+        line-height: 50px !important;
+    }
+
+    .core-value.ptb-100 .core-value-content .core-value-inner-content .number span::before {
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+        top: -12% !important;
+        left: -13% !important;
+    }
+
+    .core-value.ptb-100.position-relative .value-shape .value-shape-1,
+    .core-value.ptb-100.position-relative .value-shape .value-shape-2 {
+        display: none;
+    }
+
+    /* /core-value section end */
+
+    /* Our Teacher section start */
+    .ourteacher.pt-100.pb-50 {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .ourteacher.pt-100.pb-50 .container-fluid span {
+        font-size: 18px;
+    }
+
+    .ourteacher.pt-100.pb-50 .container-fluid h3 {
+        font-size: 28px;
+    }
+
+    /* /Our Teacher section end */
+
+    /* testimonial section start */
+
+    .testimonial.ptb-100.position-relative {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .testimonial.ptb-100.position-relative .container .row span {
+        font-size: 18px;
+    }
+
+    .testimonial.ptb-100.position-relative .container .row h3 {
+        font-size: 35px;
+    }
+
+    .testimonial.ptb-100.position-relative .container .row.py-5 {
+        padding-bottom: 0 !important;
+    }
+
+    /* /testimonial section end */
+
+    /* upcoming-event section start */
+    .upcoming-event.pt-100.pb-70 {
+        padding: 70px 0px 40px 0px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container .row span {
+        font-size: 18px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container .row h3 {
+        font-size: 35px;
+    }
+
+    /* /upcoming-event section end */
+
+    /* footer section start */
+
+    footer.ptb-100 {
+        padding: 50px 0 0 0;
+    }
+
+    footer .footer-content {
+        text-align: center;
+    }
+
+    footer .footer-content p+ul {
+        text-align: center;
+    }
+
+    footer .footer-content p+ul li {
+        margin-right: 10px;
+    }
+
+    footer .footer-content h3::before {
+        border-radius: 50%;
+        height: 4px;
+        left: 18%;
+        width: 70%;
+    }
+
+    footer .footer-content .footer-contact-info li .contact-icon {
+        left: 15%;
+        top: 10%;
+    }
+
+    footer .footer-content .footer-contact-info li {
+        padding-left: 0;
+        font-size: 25px;
+    }
+
+    footer .footer-content .footer-contact-info li a {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    footer .footer-content .footer-activities-info li a {
+        font-size: 20px !important;
+    }
+
+    /* /footer section end */
+    /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* banner section start */
+    .about-banner.ptb-200,
+    .blog-banner,
+    .blog-details-banner,
+    .class-details-banner,
+    .class-banner,
+    .comingsoon-banner,
+    .contact-banner,
+    .enroll-banner,
+    .errorpage-banner,
+    .event-details-banner,
+    .event-banner,
+    .faq-banner,
+    .gallery-banner,
+    .howtoapply-banner,
+    .login-banner,
+    .pricing-banner,
+    .privacypolicy-banner,
+    .programs-banner,
+    .register-banner,
+    .teacher-details-banner,
+    .teacher-banner,
+    .termsofservice-banner,
+    .timetable-banner {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .about-banner h2,
+    .blog-banner h2,
+    .blog-details-banner h2,
+    .class-details-banner h2,
+    .class-banner h2,
+    .comingsoon-banner h2,
+    .contact-banner h2,
+    .enroll-banner h2,
+    .errorpage-banner h2,
+    .event-details-banner h2,
+    .event-banner h2,
+    .faq-banner h2,
+    .gallery-banner h2,
+    .howtoapply-banner h2,
+    .login-banner h2,
+    .pricing-banner h2,
+    .privacypolicy-banner h2,
+    .programs-banner h2,
+    .register-banner h2,
+    .teacher-details-banner h2,
+    .teacher-banner h2,
+    .termsofservice-banner h2,
+    .timetable-banner h2 {
+        font-size: 35px !important;
+    }
+
+    /* /banner section end */
+
+    /* who-we-are section start */
+
+    .who-we-are.ptb-100.bg-white {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .who-we-are .who-we-are-content span {
+        font-size: 18px;
+    }
+
+    .who-we-are .who-we-are-content h3 {
+        font-size: 25px;
+    }
+
+    /* /who-we-are  section end */
+    /* fun-fact-area  section start */
+    .fun-fact-area.pt-100.pb-70 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .fun-fact-area .first-fun-fact {
+        padding: 35px;
+    }
+
+    .fun-fact-area .first-fun-fact h3 {
+        font-size: 35px;
+    }
+
+    /* /fun-fact-area  section end */
+    /* expert-teacher  section start */
+
+    .expert-teacher.pt-100.pb-70 .expert-teacher-content {
+        text-align: center;
+    }
+
+    /* /expert-teacher  section end */
+    /* quote-area  section start */
+
+    .quote-area.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .quote-area .quote-item {
+        padding: 20px;
+    }
+
+    .quote-area .quote-item .content h3 {
+        font-size: 22px;
+    }
+
+    /* /quote-area  section end */
+    /* courses  section start */
+
+    .courses.pt-100.pb-70 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 h3 {
+        font-size: 25px;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 {
+        margin-bottom: 30px;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row h3 {
+        font-size: 28px;
+    }
+
+    /* /testimonial  section end */
+    /* pricing section start */
+    .pricing.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .pricing.ptb-100 h3 {
+        font-size: 28px;
+    }
+
+    /* /pricing  section end */
+    /* newsletter section start */
+    .newsletter.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .newsletter.ptb-100 .newsletter-content h2 {
+        font-size: 22px;
+    }
+
+    .newsletter .newsletter-form button {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    /* /newsletter  section end */
+    /* partner section start */
+
+    .partner.ptb-100.bg-partner {
+        padding: 50px 0px 50px 0px !important;
+    }
+
+    .partner.ptb-100.bg-partner marquee img {
+        max-width: 100px;
+    }
+
+    /* /partner  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
+    /* ======================== Programs RESPONSIVE SECTION START ========================= */
+
+    /* courses section start */
+    .courses.pt-100.pb-50 span {
+        font-size: 18px;
+    }
+
+    .courses.pt-100.pb-50 h3 {
+        font-size: 25px;
+    }
+
+    .courses.pt-100.pb-50 .container .row .col-md-6 div.mt-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* /courses  section end */
+
+    /* interested-area section start */
+    .interested-area .interested-content {
+        padding: 30px !important;
+    }
+
+    .interested-area .interested-content h3 {
+        font-size: 25px !important;
+    }
+
+    .interested-area .interested-content .interested-btn {
+        text-align: center;
+    }
+
+    /* /interested-area  section end */
+
+    /* testimonial section start */
+    .testimonial.pt-100.pb-50.position-relative span {
+        font-size: 18px;
+    }
+
+    .testimonial.pt-100.pb-50.position-relative h3 {
+        font-size: 35px !important;
+    }
+
+    .testimonial.pt-100.pb-50.position-relative .row.py-5.mySwiper {
+        padding: 40px !important;
+    }
+
+    /* /testimonial  section end */
+
+    /* ======================== /Programs RESPONSIVE SECTION END ========================= */
+    /* ======================== ENROLL RESPONSIVE SECTION START ========================= */
+    /* enroll-quote-area section start */
+    .enroll-quote-area .enroll-quote-item .content span {
+        font-size: 18px !important;
+    }
+
+    .enroll-quote-area .enroll-quote-item .content h3 {
+        font-size: 35px !important;
+    }
+
+    .enroll-quote-area .enroll-quote-item {
+        padding: 30px !important;
+    }
+
+    /* /enroll-quote-area  section end */
+    /* ======================== /ENROLL RESPONSIVE SECTION END ========================= */
+    /* ======================== faq RESPONSIVE SECTION START ========================= */
+    .entollment-area .faq span,
+    .question-area .question span {
+        font-size: 18px !important;
+    }
+
+    .entollment-area .faq h3,
+    .question-area .question h3 {
+        font-size: 35px !important;
+    }
+
+    .entollment-area .enrollment-content {
+        padding: 20px !important;
+    }
+
+    .entollment-area .enrollment-content .content h3 {
+        font-size: 25px !important;
+        text-align: center;
+        margin: 0;
+    }
+
+    .question-area .question .question-contact-form #contactform .send-btn {
+        text-align: center;
+    }
+
+    /* ======================== /faq RESPONSIVE SECTION END ========================= */
+    /* ======================== event RESPONSIVE SECTION START ========================= */
+    .event-area .event-item .event-img {
+        margin-bottom: 25px;
+    }
+
+    .event-area .event-item .event-date h4 {
+        font-size: 45px;
+    }
+
+    /* ======================== /event RESPONSIVE SECTION END ========================= */
+    /* ======================== class-details RESPONSIVE SECTION START ========================= */
+    .class-details-area .class-para-tab .tabs li a {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding: 10px 30px !important;
+    }
+
+    /* ======================== /class-details RESPONSIVE SECTION END ========================= */
+    /* ======================== blog-details RESPONSIVE SECTION START ========================= */
+    .class-details-area .blog-post .blog-para .col-lg-4 .image {
+        margin-bottom: 20px !important;
+    }
+
+    .class-details-area .blog-post .blog-para .col-lg-4 .image img {
+        border-radius: 20px 0px 20px 0px !important;
+    }
+
+    .respond .respond-title {
+        text-align: center;
+    }
+
+    .respond input:focus,
+    .respond textarea:focus {
+        border: 1px solid #ea512e;
+    }
+
+    .respond .respond-form .respond-form-submit {
+        width: 50% !important;
+    }
+
+    /* ======================== /blog-details RESPONSIVE SECTION END ========================= */
+
+    /* ======================== contact RESPONSIVE SECTION START ========================= */
+    .contact-form h3 {
+        text-align: center;
+    }
+
+    .contact-info h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* ======================== /contact RESPONSIVE SECTION END ========================= */
 }
 
-@media screen and (max-width: 768px) {}
+/* ============================================ max width 768px end ============================================ */
 
-@media screen and (max-width: 576px) {}
+/* =========================================== max width 576px start =========================================== */
 
+@media screen and (max-width: 576px) {
+
+    /* universal section start */
+    .pt-100 {
+        padding-top: 30px !important;
+    }
+
+    .pb-70,
+    .pb-50 {
+        padding-bottom: 20px !important;
+    }
+
+    .ptb-100 {
+        padding: 30px 0px 30px 0px !important;
+    }
+
+    /* /universal section end */
+    /* nav section start */
+
+    #acc-log-reg {
+        left: 10px;
+        top: 100%;
+    }
+
+    #navbarDropdown2:hover #acc-log-reg {
+        display: block;
+    }
+
+    /* /nav section end */
+
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+
+    /* banner section start */
+    .banner.position-relative {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner .container .banner-play .banner-btn-learn {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+    .cute-girl .mt-5 {
+        margin-top: 30px !important;
+    }
+
+    /* /banner section end */
+
+    /* Who We Are section start */
+    .whoweare.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .whoweare .container .row.pt-5 .col-lg-6.content span {
+        font-size: 18px;
+    }
+
+    .whoweare .container .row.pt-5 .col-lg-6 h3 {
+        font-size: 25px;
+    }
+
+    .whoweare .col-lg-6 ul.who-we-are-list {
+        display: block !important;
+    }
+
+    .whoweare .col-lg-6 ul.who-we-are-list li {
+        max-width: unset !important;
+        margin-right: 2px;
+        font-size: 20px !important;
+        padding-left: 50px !important;
+    }
+
+    .whoweare .col-lg-6 ul.who-we-are-list li span.who-we-are-spanno {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 20px !important;
+    }
+
+    .whoweare .who-we-are-btn {
+        text-align: center;
+    }
+
+    /* /Who We Are section end */
+
+    /* Popular section start */
+
+    .popular .container .row .col-12 span {
+        font-size: 18px;
+    }
+
+    .popular .container .row .col-12 h3 {
+        font-size: 28px;
+    }
+
+    /* /Popular section end */
+
+    /* core-value section start */
+
+    .core-value.ptb-100.position-relative .container .row .col-lg-6.content {
+        display: none;
+    }
+
+    .core-value .core-value-bootom-content {
+        display: block;
+    }
+
+    /* /core-value section end */
+    /* Our Teacher section start */
+    .ourteacher.pt-100.pb-50 {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    /* /Our Teacher section end */
+    /* testimonial section start */
+
+    .testimonial.ptb-100.position-relative {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .testimonial.ptb-100.position-relative .container .row h3 {
+        font-size: 28px;
+    }
+
+    .testimonial.ptb-100.position-relative .container .row.py-5 {
+        padding-top: 0 !important;
+    }
+
+    /* /testimonial section end */
+
+    /* upcoming-event section start */
+    .upcoming-event.pt-100.pb-70 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container .row h3 {
+        font-size: 28px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row {
+        text-align: center;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row .col-md-4 {
+        margin-bottom: 25px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row .col-md-5 h3 {
+        font-size: 22px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row .col-md-5 .event-list {
+        margin-top: 15px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row .col-md-3 .event-date {
+        margin-top: 10px;
+    }
+
+    .upcoming-event.pt-100.pb-70 .container.event-background .event-content .row .col-md-3 .event-date h1 {
+        font-size: 45px;
+    }
+
+    /* /upcoming-event section end */
+
+    /* latest-news section start */
+    .latest-news.pt-100.pb-70 .container .row .col-lg-4 .card {
+        text-align: center;
+    }
+
+    /* /latest-news section end */
+
+    /* footer section start */
+
+    footer .footer-content .footer-contact-info li .contact-icon {
+        left: 30%;
+        top: 10%;
+    }
+
+    footer .footer-content .footer-photo-gallery li .box img {
+        width: max-content;
+    }
+
+    /* /footer section end */
+
+    /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* banner section start */
+
+
+    /* /banner section end */
+    /* who-we-are section start */
+
+    .who-we-are .who-we-are-content span,
+    .who-we-are .who-we-are-content h3 {
+        text-align: center;
+        display: block;
+    }
+
+    .who-we-are .container .row .col-lg-6 img {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .who-we-are .who-we-are-content ul.list-unstyled.row {
+        display: block;
+    }
+
+    .who-we-are .who-we-are-content ul.list-unstyled.row .col-6 {
+        width: 100%;
+    }
+
+    .who-we-are .who-we-are-content div {
+        text-align: center;
+    }
+
+    /* /who-we-are  section end */
+    /* quote-area  section start */
+    .quote-area .quote-item .content {
+        text-align: center;
+    }
+
+    /* /quote-area  section end */
+    /* courses  section start */
+    .courses.pt-100.pb-70 .container .row .col-lg-6 span,
+    .courses.pt-100.pb-70 .container .row .col-lg-6 h3 {
+        text-align: center;
+        display: block;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 .mt-4 {
+        text-align: center;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+
+    /* /testimonial  section end */
+    /* pricing section start */
+
+    /* /pricing  section end */
+    /* newsletter section start */
+
+
+    /* /newsletter  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
+    /* ======================== Programs RESPONSIVE SECTION START ========================= */
+
+    /* courses section start */
+    .courses.pt-100.pb-50 span,
+    .courses.pt-100.pb-50 h3 {
+        text-align: center;
+        display: block;
+    }
+
+    .courses.pt-100.pb-50 h3 {
+        font-size: 20px;
+    }
+
+    .courses.pt-100.pb-50 p {
+        font-size: 14px;
+    }
+
+    /* /courses  section end */
+
+    /* interested-area section start */
+    .interested-area .interested-content {
+        padding: 20px !important;
+    }
+
+    .interested-area .interested-content h3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .interested-area .interested-content .interested-btn {
+        text-align: center;
+    }
+
+    /* /interested-area  section end */
+
+    /* testimonial section start */
+    .testimonial.pt-100.pb-50.position-relative h3 {
+        font-size: 25px !important;
+    }
+
+    /* /testimonial  section end */
+
+    /* partner section start */
+
+    .partner.ptb-100.bg-partner {
+        padding: 20px 0px 20px 0px !important;
+    }
+
+    /* /partner  section end */
+
+    /* ======================== /Programs RESPONSIVE SECTION END ========================= */
+    /* ======================== ENROLL RESPONSIVE SECTION START ========================= */
+    /* enroll-quote-area section start */
+    .enroll-quote-area .enroll-quote-item .content span {
+        text-align: center;
+        display: block;
+        font-size: 18px !important;
+    }
+
+    .enroll-quote-area .enroll-quote-item .content h3 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+
+    .enroll-quote-area .enroll-quote-item form .form-control {
+        height: 55px !important;
+    }
+
+    .enroll-quote-area .enroll-quote-item {
+        padding: 30px !important;
+    }
+
+    /* /enroll-quote-area  section end */
+    /* entollment-area section start */
+
+    .entollment-area .enrollment-content .content h3 {
+        text-align: center;
+    }
+
+    /* /entollment-area  section end */
+    /* ======================== /ENROLL RESPONSIVE SECTION END ========================= */
+
+    /* ======================== faq / login and register /RESPONSIVE SECTION START ========================= */
+    .entollment-area .faq h3,
+    .question-area .question h3 {
+        font-size: 25px !important;
+    }
+
+    .entollment-area .enrollment-content {
+        padding: 10px !important;
+    }
+
+    .entollment-area .enrollment-content .content {
+        margin: 10px !important;
+    }
+
+    .entollment-area .enrollment-content .content h3 {
+        font-size: 20px !important;
+    }
+
+    /* ======================== /faq RESPONSIVE SECTION END ========================= */
+    /* ======================== login and register /RESPONSIVE SECTION START ========================= */
+    .login-area .login-form,
+    .register-area .register-form {
+        padding: 20px 30px !important;
+    }
+
+    .login-area .login-form h2,
+    .register-area .register-form h2 {
+        font-size: 30px !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .login-area .login-form form .form-group,
+    .register-area .register-form form .form-group {
+        margin-bottom: 15px !important;
+    }
+
+    .login-area .login-form form .form-group .form-control,
+    .register-area .register-form form .form-group .form-control {
+        height: 50px !important;
+    }
+
+    /* =================== /login and register /TermsOfService-area RESPONSIVE SECTION END ==================== */
+    /* ================== TermsOfService-area & PrivacyPolicy-area RESPONSIVE SECTION START =================== */
+
+    .TermsOfService-area .TermsOfService-expand .TermsOfService-expand-item .TermsOfService-expand-title,
+    .PrivacyPolicy-area .PrivacyPolicy-expand .PrivacyPolicy-expand-item .PrivacyPolicy-expand-title {
+        padding: 20px 40px 20px 10px !important;
+    }
+
+    /* ================== /TermsOfService-area & PrivacyPolicy-area RESPONSIVE SECTION END =================== */
+    /* ======================== event-details RESPONSIVE SECTION START ========================= */
+    .event-details-area .event-para h2,
+    .class-details-area .para-content .para-item .class-para-content h3,
+    .class-details-area .blog-post .blog-para h4 {
+        font-size: 19px;
+        margin: 10px 0px 10px 0px !important;
+        text-align: center;
+    }
+
+    .class-details-area.pt-100.pb-30 {
+        padding-bottom: 0px !important;
+    }
+
+    .popular-class h3 {
+        text-align: center;
+    }
+
+    /* ======================== /event-details RESPONSIVE SECTION END ========================= */
+    /* ======================== blog-details RESPONSIVE SECTION START ========================= */
+
+    .class-details-area .blog-post .blog-para .col-lg-4 .image img {
+        border-radius: 0px 20px 0px 20px !important;
+    }
+
+    .respond input,
+    .respond textarea {
+        height: 55px !important;
+    }
+
+    .respond .respond-form-cookies-consent input {
+        top: 0 !important;
+        width: 3% !important;
+    }
+
+    .respond .respond-form-cookies-consent label {
+        font-size: 14px;
+    }
+
+
+    /* ======================== /blog-details RESPONSIVE SECTION END ========================= */
+
+
+}
+
+/* ============================================ max width 576px end ============================================ */
+
+/* ================================= min width 0px and  max width 576px start ================================= */
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+    /* ======================== HOME RESPONSIVE SECTION START ========================= */
+    /* banner section start */
+    .banner.position-relative {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .banner .container .banner-play p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .banner .container .banner-play h1 {
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    .cute-girl .mt-5 {
+        margin-top: 20px !important;
+    }
+
+    /* /banner section end */
+
+    /* Who We Are section start */
+    /* /Who We Are section end */
+
+    /* Popular section start */
+    /* /Popular section end */
+
+    /* core-value section start */
+    .core-value.ptb-100.position-relative .container .row .content h3 {
+        margin: 0;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .core-value.ptb-100.position-relative .container .row .content .ourcore {
+        margin-top: 20px;
+    }
+
+    .core-value.ptb-100.position-relative .container .row .content .ourcore .number {
+        margin: 5px;
+    }
+
+    .core-value.ptb-100.position-relative .container .row .content .ourcore .number+.col-10 {
+        max-width: unset;
+    }
+
+    /* .core-value.ptb-100.position-relative .container .row .content .ourcore .col-10 h4 {
+        font-size: 20px;
+    }
+
+    .core-value.ptb-100.position-relative .container .row .content .ourcore .col-10 p {
+        font-size: 14px;
+    } */
+
+    /* /core-value section end */
+
+    /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
+}
+
+/* ================================= min width 0px and  max width 576px end ================================= */
 
 /* ========================= /RESPONSIVE DIMENSIONS END ========================= *=/

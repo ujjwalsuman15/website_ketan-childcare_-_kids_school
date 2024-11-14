@@ -7,8 +7,30 @@ a {
 }
 
 .about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
-    background-size: 100%;
+    position: relative;
+    z-index: 1;
+    background: url(../img/aboutimg/page-banner-1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+
+
+
+.about-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
 }
 
 .about-banner h2 {
@@ -96,8 +118,27 @@ a {
 
 /* ========================= Fun-Fact-Area section start ========================= */
 .fun-fact-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/fun-facts-bg.png) no-repeat fixed;
-    background-size: 100%;
+    background: url(../img/aboutimg/fun-facts-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.fun-fact-area::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
 }
 
 .fun-fact-area .first-fun-fact {
@@ -173,7 +214,6 @@ a {
     transition: 0.4s ease-in;
     color: #ea512e;
 }
-
 .expert-teacher .teacher-content ul li:hover {
     background: #f5890d;
     transition: 0.4s ease-in;
@@ -243,6 +283,10 @@ a {
     line-height: 1.5;
     background-clip: padding-box;
     appearance: none;
+}
+
+.quote-item form .form-group .form-control:focus {
+    border: 1px solid #ea512e;
 }
 
 /* ========================= /Quote-area section end ========================= */

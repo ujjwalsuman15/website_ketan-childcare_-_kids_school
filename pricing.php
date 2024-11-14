@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" pricing-banner ptb-200 mt-80">
+    <section class=" pricing-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -41,7 +41,7 @@
     <!-- ========================= Pricing section start ========================= -->
     <section class="pricing ptb-100">
         <div class="container">
-            <div class="pricing-table" data-aos="zoom-in-down">
+            <div class="pricing-table routine table-responsive" data-aos="zoom-in-down">
                 <table class="table table-bordered mb-0">
                     <thead>
                         <tr>
@@ -85,7 +85,6 @@
         </div>
     </section>
     <!-- ========================= /Pricing section end ========================= -->
-
 
     <!-- =========================  Newsletter section start ========================= -->
     <div class="newsletter ptb-100">

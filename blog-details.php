@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" blog-details-banner ptb-200 mt-80">
+    <section class=" blog-details-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -47,7 +47,7 @@
                         <img src="assests/img/blog-detailimg/blog-details.png" alt="">
                     </div>
                     <div class="blog-post">
-                        <p class="text-dark fw-medium  my-3">
+                        <p class="text-dark fw-medium my-3">
                             Posted On:
                             <a href="javascript:void()">September 31, 2024</a>
                             &nbsp;
@@ -85,17 +85,17 @@
                                 enim voluptate repellat porro excepturi?
                             </p>
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-4">
                                     <div class="image">
                                         <img src="./assests/img/blog-detailimg/blog-4.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-4">
                                     <div class="image">
                                         <img src="./assests/img/blog-detailimg/blog-5.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-4">
                                     <div class="image">
                                         <img src="./assests/img/blog-detailimg/blog-6.png" alt="">
                                     </div>
@@ -284,7 +284,7 @@
                     </div>
                     <div class="respond">
                         <h3 class="respond-title">leave a Reply</h3>
-                        <form class="respond-form">
+                        <form method="post" class="respond-form">
                             <p class="respond-notes">
                                 <span class="e-notes">
                                     Your email address will not be published.
@@ -330,7 +330,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 my-md-0 my-5">
                     <div class="blog-details-sidetab">
                         <div class="sidetab sidetab-search">
                             <h3 class="sidetab-title">
@@ -486,7 +486,6 @@
         </div>
     </section>
     <!-- ========================= /class-details-area section end ========================= -->
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

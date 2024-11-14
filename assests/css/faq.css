@@ -8,9 +8,29 @@ a {
 }
 
 .faq-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/faqimg/page-banner-3.png) no-repeat fixed;
-    background-size: 100%;
+    background: url(../img/faqimg/page-banner-3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
 }
+
+.faq-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 
 .faq-banner h2 {
     margin-bottom: 20px;

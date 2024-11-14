@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" teacher-banner ptb-200 mt-80">
+    <section class=" teacher-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -42,7 +42,7 @@
     <section class="ourteacher pt-100 pb-70 ">
         <div class="container-fluid">
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-1.jpg" alt="teacher-1" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -75,7 +75,7 @@
                         <span>Music Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-2.jpg" alt="teacher-2" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -108,7 +108,7 @@
                         <span>Art Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
                         <img src="./assests/img/teacher-3.jpg" alt="teacher-3" class="img-fluid rounded-circle">
                         <div class="social-media">
@@ -176,9 +176,10 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
-                        <img src="./assests/img/teacherimg/teacher-8.png" alt="teacher-8" class="img-fluid rounded-circle">
+                        <img src="./assests/img/teacherimg/teacher-8.png" alt="teacher-8"
+                            class="img-fluid rounded-circle">
                         <div class="social-media">
                             <ul class="list-unstyled">
                                 <li class="d-inline-block">
@@ -209,9 +210,10 @@
                         <span>Music Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
-                        <img src="./assests/img/teacherimg/teacher-9.png" alt="teacher-9" class="img-fluid rounded-circle">
+                        <img src="./assests/img/teacherimg/teacher-9.png" alt="teacher-9"
+                            class="img-fluid rounded-circle">
                         <div class="social-media">
                             <ul class="list-unstyled">
                                 <li class="d-inline-block">
@@ -242,9 +244,10 @@
                         <span>Art Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="teacher-image overflow-hidden position-relative text-center">
-                        <img src="./assests/img/teacherimg/teacher-10.png" alt="teacher-10" class="img-fluid rounded-circle">
+                        <img src="./assests/img/teacherimg/teacher-10.png" alt="teacher-10"
+                            class="img-fluid rounded-circle">
                         <div class="social-media">
                             <ul class="list-unstyled">
                                 <li class="d-inline-block">
@@ -275,9 +278,10 @@
                         <span>Math Teacher</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="teacher-image overflow-hidden position-relative text-center">
-                        <img src="./assests/img/teacherimg/teacher-11.png" alt="teacher-11" class="img-fluid rounded-circle">
+                        <img src="./assests/img/teacherimg/teacher-11.png" alt="teacher-11"
+                            class="img-fluid rounded-circle">
                         <div class="social-media">
                             <ul class="list-unstyled">
                                 <li class="d-inline-block">

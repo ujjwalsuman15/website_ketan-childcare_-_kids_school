@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" howtoapply-banner ptb-200 mt-80">
+    <section class=" howtoapply-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" placeholder="Write Something..."></textarea>
+                        <textarea class="form-control" placeholder="Write Something..." spellcheck="true"></textarea>
                     </div>
                     <button type="submit" class="btn w-100">
                         Submit Now
@@ -84,9 +84,6 @@
         </div>
     </section>
     <!-- ========================= /Apply section end ========================= -->
-
-
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

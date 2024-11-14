@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" about-banner ptb-200 mt-80">
+    <section class=" about-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -42,7 +42,7 @@
     <section class="who-we-are ptb-100 bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="who-we-are-content">
                         <span>
                             About
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./assests/img/aboutimg/who-we-are-3.png" alt="who-we-are" class="img-fluid">
                 </div>
             </div>
@@ -94,28 +94,28 @@
     <section class="fun-fact-area pt-100 pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                     <div class="first-fun-fact">
                         <h3 id="twelve"></h3>
                         <p>Students</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                     <div class="first-fun-fact second">
                         <h3 id="threefive"></h3>
                         <p>Teachers</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                     <div class="first-fun-fact third">
                         <h3 id="four"></h3>
                         <p>Classrooms</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                     <div class="first-fun-fact fourth">
                         <h3 id="fifty"></h3>
@@ -363,7 +363,7 @@
     <section class="courses pt-100 pb-70">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <span>Courses</span>
                     <h3>Request a Tutors For Free Online Class</h3>
                     <p>
@@ -381,7 +381,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="courses-image position-relative">
                         <img src="./assests/img/aboutimg/choose-1.png" alt="choose-1" class="img-fluid">
                         <div class="courses-image-shape">
@@ -435,7 +435,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="feedback-item mt-5">
                     <div class="row align-items-center">
                         <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
@@ -475,7 +474,7 @@
                 <span class="text-center">Pricing</span>
                 <h3 class="text-center">Pricing and Fees</h3>
             </div>
-            <div class="pricing-table" data-aos="zoom-in-down">
+            <div class="pricing-table routine table-responsive" data-aos="zoom-in-down">
                 <table class="table table-bordered mb-0">
                     <thead>
                         <tr>

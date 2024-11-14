@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" class-banner ptb-200 mt-80">
+    <section class=" class-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -204,7 +204,8 @@
                     <div class="card overflow-hidden colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
-                                <img src="./assests/img/classimg/class-4.png" class="card-img-top" alt="Kids_Painting_Class">
+                                <img src="./assests/img/classimg/class-4.png" class="card-img-top"
+                                    alt="Kids_Painting_Class">
                             </a>
                         </div>
                         <div class="card-body position-relative">
@@ -255,7 +256,8 @@
                     <div class="card overflow-hidden colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
-                                <img src="./assests/img/classimg/class-5.png" class="card-img-top" alt="Martial_Art_Class">
+                                <img src="./assests/img/classimg/class-5.png" class="card-img-top"
+                                    alt="Martial_Art_Class">
                             </a>
                         </div>
                         <div class="card-body position-relative">
@@ -366,7 +368,6 @@
         </div>
     </section>
     <!-- ========================= /Popular section end ========================= -->
-
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

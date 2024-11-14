@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" timetable-banner ptb-200 mt-80">
+    <section class=" timetable-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -235,10 +235,6 @@
         </div>
     </section>
     <!-- ========================= /Routine section end ========================= -->
-
-
-
-    
 
     <!-- ========================= Footer section start ========================= -->
     <?php include 'include/footer.php'?>

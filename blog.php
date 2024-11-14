@@ -17,7 +17,7 @@
     <!-- ========================= /Header section end ========================= -->
 
     <!-- ========================= Hero section start ========================= -->
-    <section class=" blog-banner ptb-200 mt-80">
+    <section class=" blog-banner ptb-200">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -42,7 +42,8 @@
     <section class="latest-news pt-100 pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -81,7 +82,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -120,7 +122,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -161,7 +164,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -200,7 +204,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
@@ -239,7 +244,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="card overflow-hidden border-0 colorimage">
                         <div class="h-50% overflow-hidden">
                             <a href="javascript:void()">
